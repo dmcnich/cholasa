@@ -2,7 +2,7 @@
 title: Colonsay General Store
 ---
 
-<img class="media-element file-default img-responsive" data-delta="1" typeof="foaf:Image" src="/images/ShopLogo.png" width="960" height="349" alt="" />
+<img class="media-element file-default img-responsive" data-delta="1" typeof="foaf:Image" src="{{ site.url }}{{ site.baseurl }}/images/ShopLogo.png" width="960" height="349" alt="" />
 
 Keir and Grace welcome you to Colonsay General Store. we have had the pleasure of running the island's only grocery store since April 2012, Keir having worked at the shop for many seasons previously.
 
