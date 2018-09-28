@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.colonsay.org.uk/sites/all/themes/sojotemplate/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/22" />
+<link rel="canonical" href="/accommodation" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Accommodation Listing | Isle Of Colonsay</title>
+  <style>
+@import url("/assets/system.base.css?pfo3im");
+</style>
+<style media="screen">
+@import url("http://www.colonsay.org.uk/sites/all/libraries/leaflet_markercluster/dist/MarkerCluster.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/libraries/leaflet_markercluster/dist/MarkerCluster.Default.css?pfo3im");
+</style>
+<style>
+@import url("http://www.colonsay.org.uk/sites/all/modules/date/date_api/date.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pfo3im");
+@import url("http://www.colonsay.org.uk/modules/field/theme/field.css?pfo3im");
+@import url("http://www.colonsay.org.uk/modules/node/node.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/modules/video_filter/video_filter.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/modules/views/css/views.css?pfo3im");
+</style>
+<style>
+@import url("http://www.colonsay.org.uk/sites/all/modules/ctools/css/ctools.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/modules/lightbox2/css/lightbox.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/modules/ip_geoloc/css/ip_geoloc_leaflet_controls.css?pfo3im");
+@import url("http://www.colonsay.org.uk/sites/all/libraries/leaflet/leaflet.css?pfo3im");
+</style>
+<style media="screen">
+@import url("http://www.colonsay.org.uk/sites/all/libraries/leaflet-fullscreen/dist/leaflet.fullscreen.css?pfo3im");
+</style>
+<style>
+@import url("http://www.colonsay.org.uk/sites/all/themes/sojotemplate/css/style.css?pfo3im");
+</style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="http://www.colonsay.org.uk/sites/default/files/js/js_e1VOoITSzyq9WRfCqumKUeuj8lPap0O7_buHrX9Joxk.js"></script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_-jenMcWHoY-_YofME9QdfIdN78Hvtfo2npip2cxdObU.js"></script>
+<script>L_ROOT_URL = "/sites/all/libraries/leaflet/";</script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_6C-gZ6JYF01F7XpRRdXppzdWYf7uKdMGco6EWtJjbG4.js"></script>
+<script src="http://www.colonsay.org.uk/sites/all/libraries/leaflet_markercluster/dist/leaflet.markercluster.js?v=0.4"></script>
+<script src="http://www.colonsay.org.uk/sites/all/libraries/leaflet-fullscreen/dist/Leaflet.fullscreen.min.js?v=0.0.3"></script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_Xk8TsyNfILciPNmQPp9sl88cjH71DQWyeHE0MB62KO4.js"></script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_DgOMLrB0OjiCcD2cmT1loWlyilT4kC08zZjnvrF33ac.js"></script>
+<script src="//use.typekit.net/xzl7twq.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_wvwkf1wM2rgscgHMd1qW0cLCwpNjMZbsGo_XFjoqkcg.js"></script>
+<script>L.Icon.Default.imagePath = "/sites/all/libraries/leaflet/images/";</script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_9sr_WrmMps60U_NBz9WtAEdByfKpFnpFGZoS3jPggik.js"></script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_M1ex1yMIvPONkElXlQGIq6op3H4hPr5kq91ABElAkUM.js"></script>
+<script src="http://www.colonsay.org.uk/sites/default/files/js/js_yo9QJ55hHiYOUgCDdekfA51z0MNyY09hHAlJw4Uz1s8.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"sojotemplate","theme_token":"qnO1ovLDOTp0Df2Aj8XJFLBF52dZ31BCP0ZrVRNtokw","jquery_version":"1.9","js":{"":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"0":1,"sites\/all\/libraries\/leaflet\/leaflet.js":1,"sites\/all\/libraries\/leaflet_markercluster\/dist\/leaflet.markercluster.js":1,"sites\/all\/libraries\/leaflet-fullscreen\/dist\/Leaflet.fullscreen.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"\/\/use.typekit.net\/xzl7twq.js":1,"1":1,"sites\/all\/modules\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/modules\/ctools\/js\/auto-submit.js":1,"sites\/all\/modules\/leaflet\/leaflet.drupal.js":1,"2":1,"sites\/all\/modules\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/views_bootstrap\/js\/views-bootstrap-carousel.js":1,"sites\/all\/modules\/ip_geoloc\/js\/ip_geoloc_leaflet_controls.js":1,"sites\/all\/modules\/leaflet_markercluster\/leaflet_markercluster.drupal.js":1,"sites\/all\/modules\/leaflet_more_maps\/leaflet_more_maps.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/affix.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/alert.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/button.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/carousel.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/modal.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/tooltip.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/popover.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/scrollspy.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/sojotemplate\/bootstrap\/js\/transition.js":1,"sites\/all\/themes\/sojotemplate\/custom.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/libraries\/leaflet_markercluster\/dist\/MarkerCluster.Default.ie.css":1,"sites\/all\/libraries\/leaflet_markercluster\/dist\/MarkerCluster.css":1,"sites\/all\/libraries\/leaflet_markercluster\/dist\/MarkerCluster.Default.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/video_filter\/video_filter.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/ip_geoloc\/css\/ip_geoloc_leaflet_controls.css":1,"sites\/all\/libraries\/leaflet\/leaflet.css":1,"sites\/all\/libraries\/leaflet\/leaflet.ie.css":1,"sites\/all\/libraries\/leaflet-fullscreen\/dist\/leaflet.fullscreen.css":1,"sites\/all\/themes\/sojotemplate\/css\/style.css":1}},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":1,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":0,"disable_resize":0,"disable_zoom":1,"force_show_nav":0,"show_caption":1,"loop_items":0,"node_link_text":"","node_link_target":0,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":0,"useragent":"Mozilla\/5.0 (Linux; Android 8.0.0; F5321 Build\/34.4.A.2.107) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/69.0.3497.100 Mobile Safari\/537.36"},"viewsBootstrap":{"carousel":[{"id":1,"name":"banner","attributes":{"interval":5000,"pause":false}},{"id":2,"name":"latest_news","attributes":{"interval":0,"pause":false}}]},"better_exposed_filters":{"views":{"banner":{"displays":{"block":{"filters":[]}}},"accommodation":{"displays":{"block":{"filters":{"tid":{"required":false}}}}},"accommodation_listing":{"displays":{"block":{"filters":[]}}},"latest_news":{"displays":{"block":{"filters":[]}}}},"datepicker":false,"slider":false,"settings":[],"autosubmit":false},"urlIsAjaxTrusted":{"\/":true,"\/views\/ajax":true},"leaflet":[{"mapId":"ip-geoloc-map-of-view-accommodation-block-dabda270d07df16de8f13cbd2f023787","map":{"label":"google terrain","description":"Custom defined map with layer switcher","layers":{"google-high-res terrain":{"type":"google","urlTemplate":"\/\/mt{s}.googleapis.com\/vt?lyrs=t,r\u0026x={x}\u0026y={y}\u0026z={z}","options":{"attribution":"Map data \u0026copy; \u003Ca target=\u0022attr\u0022 href=\u0022http:\/\/googlemaps.com\u0022\u003EGoogle\u003C\/a\u003E","detectRetina":true,"subdomains":[0,1,2,3]}}},"settings":{"layerControl":false,"attributionControl":true,"closePopupOnClick":true,"doubleClickZoom":true,"dragging":true,"fadeAnimation":true,"maxZoom":18,"minZoom":0,"scrollWheelZoom":true,"touchZoom":true,"trackResize":true,"zoomAnimation":true,"zoomControl":true,"revertLastMarkerOnMapOut":false,"maxClusterRadius":30,"disableClusteringAtZoom":"15","addRegionToolTips":false,"hullHugFactor":-1,"touchMode":"auto","animateAddingMarkers":true,"allowClustersOfOne":true,"spiderfyDistanceMultiplier":4,"fullscreenControl":{"position":"topright"},"zoomIndicator":false,"zoomOnClick":0,"resetControl":false,"clusterControl":false,"scaleControl":{"metric":false,"imperial":true},"openBalloonsOnHover":false,"gotoContentOnClick":false}},"features":[{"type":"point","lat":56.0811149128,"lon":-6.21208190918,"feature_id":"95","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/mo-dhachaidh\u0022\u003EMo Dhachaidh \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/mo-dhachaidh\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/img-2625C09715DB-48EF-516D-EDCF-3B5A873BBBD2.jpg?itok=XfLPWqcX\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayselfcatering.co.uk\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Mo Dhachaidh (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0761117924,"lon":-6.17929458618,"feature_id":"96","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/no-eight-glassard\u0022\u003ENo. Eight Glassard \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/no-eight-glassard\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/trevor.jpg?itok=VZwBA1BD\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022https:\/\/www.thistleandroseproperty.co.uk\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact No. Eight Glassard (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0925601474,"lon":-6.18993759155,"feature_id":"97","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/nursery\u0022\u003ENursery \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/nursery\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/0593877e-e7d9-4f6d-9303-e40e5d8b83bd.jpg?itok=vfQ2r9ma\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 2\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/nursery\/534\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Nursery (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0598838545,"lon":-6.22969865799,"feature_id":"94","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/machrins\u0022\u003EMachrins \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/machrins\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/1031.jpg?itok=pDcoT1Dq\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 12\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/machrins\/517\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Machrins (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.1015128343,"lon":-6.19045257568,"feature_id":"92","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/kiloran-bay-cottage\u0022\u003EKiloran Bay Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/kiloran-bay-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/97c4be72-b470-442a-8d76-127f835b7b15.jpg?itok=rqaj_iBb\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/kiloran-bay-cottage\/530\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Kiloran Bay Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0686971299,"lon":-6.19750142097,"feature_id":"90","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/colonsay-island-lodges\u0022\u003EColonsay Island Lodges \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/colonsay-island-lodges\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/Gearspar_lodge_Colonsay__29_-min.jpg?itok=AqYv_4ni\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 5 Each\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayislandlodges.co.uk\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Colonsay Island Lodges (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0909908938,"lon":-6.19199752808,"feature_id":"91","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/kennels\u0022\u003EKennels \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/kennels\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/0e6bcd78-3504-4b32-a287-1cc547ff7a73.jpg?itok=kf58N-WP\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 4\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/-kennels\/527\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Kennels (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.072958782,"lon":-6.23564243317,"feature_id":"98","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/pairc-mholach\u0022\u003EPairc Mholach \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/pairc-mholach\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/dec-2015-050.jpg?itok=Iyfuki7c\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6-8\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.spanglefish.com\/paircmholach\/index.asp\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Pairc Mholach (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0926820939,"lon":-6.18976593018,"feature_id":"99","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/pondside\u0022\u003EPondside \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/pondside\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/3449db97-e85c-4921-aee0-7b70a1732e79.jpg?itok=l8bYzYP6\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 5\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/pondside\/524\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Pondside (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0713213602,"lon":-6.19199752808,"feature_id":"104","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/tobaroran\u0022\u003ETobaroran  \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/tobaroran\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/528b6e7f-18d5-4cec-a6dc-30d8bad9b3fc.jpg?itok=oMYV7gr9\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 10\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/tobaroran\/528\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Tobaroran  (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0998291281,"lon":-6.19079589844,"feature_id":"105","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/uragaig-cottage\u0022\u003EUragaig Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/uragaig-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/95748666-9566-4de5-b41a-ce99b2f09abd.jpg?itok=4Pm3itOj\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/-uragaig-cottage\/529\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Uragaig Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.1009780356,"lon":-6.18598937988,"feature_id":"103","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/taigh-chladaich\u0022\u003ETaigh a\u0026#039; Chladaich \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/taigh-chladaich\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/2015-09-06%2018.10.29%20%281%29.jpg?itok=csF5CXU-\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 5\u003C\/p\u003E\n\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0795261089,"lon":-6.23062133789,"feature_id":"102","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/sgreadan-cottage\u0022\u003ESgreadan Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/sgreadan-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/006db322-b289-46c5-9c09-11309b7ca543.jpg?itok=jLsw055X\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/sgreadan-cottage\/525\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Sgreadan Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0690063951,"lon":-6.20156764984,"feature_id":"100","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/scalasaig-farmhouse\u0022\u003EScalasaig Farmhouse \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/scalasaig-farmhouse\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/3a4b930d-fde4-47f4-a95c-c5485e770ba6.jpg?itok=aOK4Tg0S\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 10\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/scalasaig-farmhouse\/522\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Scalasaig Farmhouse (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0741432963,"lon":-6.24521255493,"feature_id":"101","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/seaview-studio-apartment\u0022\u003ESeaview Studio Apartment \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/seaview-studio-apartment\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/VpO3CV6.png?itok=3wDycmLb\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 2\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsay.eu\/AccoSeaview.htm\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Seaview Studio Apartment (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0796039416,"lon":-6.22770309448,"feature_id":"89","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/highfield\u0022\u003EHighfield \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/highfield\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/IMG_0014.jpg?itok=g6Wn19Te\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 2-13\u003C\/p\u003E\n\u003Ca href=\u0022https:\/\/www.colonsayholiday.co.uk\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Highfield (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.073012114,"lon":-6.18523836136,"feature_id":"88","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/glebe-cottage\u0022\u003EGlebe Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/glebe-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/view.jpg?itok=W5nZcpp9\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 4\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.spanglefish.com\/glebecottageuk\/index.asp\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Glebe Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0774844409,"lon":-6.2298810482,"feature_id":"76","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/alister-annies\u0022\u003EAlister Annie\u0026#039;s \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/alister-annies\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/Alister-Annies-Cottage-Colonsay-G16-1030x735.jpg?itok=mYjGpPS6\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 4-5\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.alisteranniescolonsay.co.uk\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Alister Annie\u0026#039;s (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0533899425,"lon":-6.19781255722,"feature_id":"77","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/baleromindubh-cottage\u0022\u003EBaleromindubh Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/baleromindubh-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/0b862d11-2772-413e-be1d-998c49e2c1a6%20%281%29.jpg?itok=uw-3FfE8\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 4\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/baleromindubh-cottage\/526\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Baleromindubh Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0531340051,"lon":-6.19749069214,"feature_id":"78","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/baleromindubh-farmhouse\u0022\u003EBaleromindubh Farmhouse \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/baleromindubh-farmhouse\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/6fccd40a-7ddc-45a3-96f0-61e02679d6d0.jpg?itok=o0VvzlLt\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 10\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/baleromindubh-farmhouse\/520\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Baleromindubh Farmhouse (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0744391507,"lon":-6.23386788387,"feature_id":"71","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/backpackers-lodge\u0022\u003EBackpacker\u0026#039;s Lodge \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/backpackers-lodge\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/481.jpg?itok=0NKwmI2r\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003EHostels, Sleeps 16 Max\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/backpackers\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Backpacker\u0026#039;s Lodge (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/ngreen.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0688560513,"lon":-6.19632196237,"feature_id":"70","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/colonsay-hotel\u0022\u003EThe Colonsay Hotel \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/colonsay-hotel\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/Colonsay%20Hotel%20in%20Scalasaig%2C%20Colonsay%20%28COLO%202121%29.jpg?itok=VQpn5f6P\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003EHotels, 8 rooms\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/hotel\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact The Colonsay Hotel (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/nred.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.1007849093,"lon":-6.18972641467,"feature_id":"68","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/creag-nan-ubhal\u0022\u003ECreag nan Ubhal \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/creag-nan-ubhal\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/IMG_7197.jpg?itok=fg8z4rcL\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003EBed \u0026amp; Breakfast, 2 twin rooms, 1 double\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.creagnanubhal.co.uk\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Creag nan Ubhal (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/nblue.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0822840864,"lon":-6.21859106449,"feature_id":"69","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/dharma-cottage\u0022\u003EDharma Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\n\u003Cp\u003EBed \u0026amp; Breakfast, 3 double rooms\u003C\/p\u003E\n\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/nblue.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0422872163,"lon":-6.19942188263,"feature_id":"79","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/balerominmhor\u0022\u003EBalerominmhor \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/balerominmhor\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/3e86dcaf-d56c-4506-963e-f1b0e382fdad.jpg?itok=v62oe8oU\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 12\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/balerominmhor\/521\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Balerominmhor (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.1007849093,"lon":-6.18972641467,"feature_id":"80","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/balnahard-farmhouse\u0022\u003EBalnahard Farmhouse  \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/balnahard-farmhouse\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/gedc0299_orig.jpg?itok=mUEHIjrH\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022https:\/\/www.balnahard.com\/balnahard-farmhouse.html\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Balnahard Farmhouse  (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0700364501,"lon":-6.24242305756,"feature_id":"86","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/gart-gobhan\u0022\u003EGart a\u0026#039; Gobhan \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/gart-gobhan\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/DSC03367.jpeg?itok=RDWjlZfl\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 4-6\u003C\/p\u003E\n\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0425269325,"lon":-6.2294626236,"feature_id":"87","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/garvard\u0022\u003EGarvard \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/garvard\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/869.jpg?itok=1KnSuEuE\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 10\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsayholidays.co.uk\/cottages\/garvard\/523\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Garvard (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0742391037,"lon":-6.18126869202,"feature_id":"85","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/fasgadh\u0022\u003EFasgadh \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/fasgadh\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/fasgadh.jpg?itok=Qu3cH4vm\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleep 6-8\u003C\/p\u003E\n\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0740040756,"lon":-6.19680404663,"feature_id":"84","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/drumclach-cottage\u0022\u003EDrumclach Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/drumclach-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/dsc04374.jpg?itok=IHCQLsAf\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, 1 double, 2 twin rooms\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.spanglefish.com\/CeolCholasatheweesite\/index.asp\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Drumclach Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0730953866,"lon":-6.23497724533,"feature_id":"81","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/carn-mor\u0022\u003ECarn Mor \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/carn-mor\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/2485be43f06ed4ae64a4ed9cccba79c2.jpg?itok=VGaTEuZC\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.carnmor.org\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Carn Mor (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0736076496,"lon":-6.23360395431,"feature_id":"83","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/colnatarun-cottage\u0022\u003EColnatarun Cottage \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/colnatarun-cottage\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/slider1.jpg?itok=t3ZK8R3E\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6-8\u003C\/p\u003E\n\u003Ca href=\u0022http:\/\/www.colonsaycottage.co.uk\/\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact Colnatarun Cottage (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}},{"type":"point","lat":56.0757294414,"lon":-6.17963749935,"feature_id":"26","popup":"\u003Cdiv class=\u0022mappopup\u0022\u003E\n\u003Ch2\u003E\u003Ca href=\u0022\/accommodation\/4b-glassard\u0022\u003E4B Glassard \u0026raquo;\u003C\/a\u003E\u003C\/h2\u003E\n\u003Ca href=\u0022\/accommodation\/4b-glassard\u0022\u003E\u003Cimg class=\u0022img-responsive\u0022 src=\u0022http:\/\/www.colonsay.org.uk\/sites\/default\/files\/styles\/side_image_460\/public\/4b.jpg?itok=iGcLOVnb\u0022 \/\u003E\u003C\/a\u003E\n\u003Cp\u003ESelf Catering, Sleeps 6 - 8\u003C\/p\u003E\n\u003Ca href=\u0022https:\/\/www.independentcottages.co.uk\/scottish_islands\/4b-glassard-ref1641\u0022 class=\u0022weblink\u0022 target=\u0022_blank\u0022\u003EContact 4B Glassard (external website)\u003C\/a\u003E\n\n\u003C\/div\u003E","cssClass":"tag-inside-marker","icon":{"iconUrl":"http:\/\/www.colonsay.org.uk\/sites\/all\/modules\/ip_geoloc\/amarkers\/norange.png","iconSize":{"x":32,"y":42},"iconAnchor":{"x":16,"y":42},"popupAnchor":{"x":0,"y":-43}}}]}],"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:b6801a4dbba7ef35c49fefb4f621839d":{"view_name":"accommodation","view_display_id":"block","view_args":"","view_path":"node\/22","view_base_path":null,"view_dom_id":"b6801a4dbba7ef35c49fefb4f621839d","pager_element":0}}},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":0,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":0,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-22 node-type-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="fullgreen">
+<header id="navbar" role="banner" class="container header">
+
+<div class="row site-header">
+  <div class="col-sm-12 sitetitle">
+
+
+        <a class="sitename" href="/" title="Home">Isle Of Colonsay</a><br />
+        <a class="siteslogan" href="/" title="Home">A beautiful island and a welcoming community on the west coast of Scotland</a>
+
+
+
+  </div>
+</div>
+</header>
+</div>
+
+<div id="navbar" role="banner" class="container navbar-default header">
+<div class="row">
+  <div class="col-sm-12">
+
+    <div class="navbar-header">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+
+            
+      <ul class="menu nav navbar-nav"><li class="first leaf menu-mlid-218"><a href="/">Home</a></li>
+<li class="expanded menu-mlid-1551 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">The Island</span><ul class="dropdown-menu"><li class="first leaf menu-mlid-1558"><a href="/island/about-colonsay">About Colonsay</a></li>
+<li class="last leaf menu-mlid-1559"><a href="/island/about-us">About Us</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1552 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Our Community</span><ul class="dropdown-menu"><li class="first leaf menu-mlid-1562"><a href="/our-community/community-development-company">Community Development Company</a></li>
+<li class="leaf menu-mlid-1561"><a href="/our-community/community-council">Community Council</a></li>
+<li class="leaf menu-mlid-1566"><a href="/our-community/community-amenities">Community Amenities</a></li>
+<li class="leaf menu-mlid-1563"><a href="/our-community/crofting-projects">Crofting Projects</a></li>
+<li class="leaf menu-mlid-1565"><a href="/our-community/colonsay-and-oransay-heritage-trust">Colonsay and Oransay Heritage Trust</a></li>
+<li class="leaf menu-mlid-1646"><a href="/our-community/post-office">The Post Office</a></li>
+<li class="last leaf menu-mlid-1647"><a href="/our-community/colonsay-church">Colonsay Church</a></li>
+</ul></li>
+<li class="leaf active-trail active menu-mlid-1497 active"><a href="/accommodation" class="active-trail active">Accommodation</a></li>
+<li class="expanded menu-mlid-1553 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Things to do</span><ul class="dropdown-menu"><li class="first leaf menu-mlid-1671"><a href="/things-do/whats">What&#039;s On?</a></li>
+<li class="leaf menu-mlid-1648"><a href="/things-do/wildlife-watching">Wildlife Watching</a></li>
+<li class="leaf menu-mlid-1625"><a href="/things-do/beaches">Beaches</a></li>
+<li class="leaf menu-mlid-1629"><a href="/things-do/flying-visits">Flying Visits</a></li>
+<li class="leaf menu-mlid-1634"><a href="/things-do/tours-walks">Tours &amp; Walks</a></li>
+<li class="leaf menu-mlid-1632"><a href="/things-do/macphie-bagging">MacPhie Bagging</a></li>
+<li class="leaf menu-mlid-1630"><a href="/things-do/golf">Golf</a></li>
+<li class="leaf menu-mlid-1645"><a href="/things-do/archies-bike-hire">Archie&#039;s Bike Hire</a></li>
+<li class="leaf menu-mlid-1631"><a href="/things-do/beekeeping-courses">Beekeeping Courses</a></li>
+<li class="leaf menu-mlid-1626"><a href="/things-do/boat-trips">Boat Trips</a></li>
+<li class="leaf menu-mlid-1627"><a href="/things-do/colonsay-house-gardens">Colonsay House Gardens</a></li>
+<li class="leaf menu-mlid-1633"><a href="/things-do/oransay">Oransay</a></li>
+<li class="leaf menu-mlid-1628"><a href="/things-do/fishing">Fishing</a></li>
+<li class="last leaf menu-mlid-1568"><a href="/things-do/other-things-do">Other things to do</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1554 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Shops &amp; Food</span><ul class="dropdown-menu"><li class="first leaf menu-mlid-1639"><a href="/shops-food/colonsay-brewery">Colonsay Brewery</a></li>
+<li class="leaf menu-mlid-1635"><a href="/shops-food/colonsay-general-store">Colonsay General Store</a></li>
+<li class="leaf menu-mlid-1640"><a href="/shops-food/colonsay-honey">Colonsay Honey</a></li>
+<li class="leaf menu-mlid-1636"><a href="/shops-food/gardens-caf%C3%A9">Gardens Café</a></li>
+<li class="leaf menu-mlid-1641"><a href="/shops-food/house-lochar">House of Lochar</a></li>
+<li class="leaf menu-mlid-1637"><a href="/shops-food/bookshop">The Bookshop</a></li>
+<li class="last leaf menu-mlid-1638"><a href="/shops-food/pantry">The Pantry</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1555 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Events &amp; Festivals</span><ul class="dropdown-menu"><li class="first leaf menu-mlid-1642"><a href="/events-festivals/ce%C3%B2l-cholasa">Ceòl Cholasa</a></li>
+<li class="leaf menu-mlid-1643"><a href="/events-festivals/colonsay-book-festival">Colonsay Book Festival</a></li>
+<li class="last leaf menu-mlid-1644"><a href="/events-festivals/festival-spring">Festival of Spring</a></li>
+</ul></li>
+<li class="expanded menu-mlid-1556 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">History</span><ul class="dropdown-menu"><li class="first leaf menu-mlid-1569"><a href="/history/areas-interest">Areas of Interest</a></li>
+<li class="leaf menu-mlid-1570"><a href="/history/arandora-star">Arandora Star</a></li>
+<li class="leaf menu-mlid-1571"><a href="/history/colonsay-family-history">Colonsay family history</a></li>
+<li class="last leaf menu-mlid-1572"><a href="/history/geology">Geology</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-1573 dropdown"><span title="" data-target="#" class="dropdown-toggle nolink" data-toggle="dropdown">Weather, Tides &amp; Travel</span><ul class="dropdown-menu"><li class="first last leaf menu-mlid-1670"><a href="/weather-tides-travel/weather-tides-travel">Weather, Tides &amp; Travel</a></li>
+</ul></li>
+</ul>
+
+        </nav>
+      </div>
+    
+  </div>
+</div>
+</div>
+
+<div class="fullgrey">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="topphoto">
+            <div class="region region-topphoto">
+    <section id="block-views-banner-block" class="block block-views first last odd clearfix">
+
+      
+  <div class="view view-banner view-id-banner view-display-id-block view-dom-id-5bec628ee20d4b5fc5c23099bfd68d7f">
+        
+  
+  
+      <div class="view-content">
+      
+<div id="views-bootstrap-carousel-1" class="views-bootstrap-carousel-plugin-style carousel slide"  data-ride="carousel">
+  
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+          <div class="item active">
+          
+  <div class="views-field views-field-field-banner-images">        <div class="field-content"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/banner/public/Kiloran%20Bay%2C%20Colonsay%20%28COLO%201120%29.jpg?itok=Eo9lMhBz" width="1140" height="430" /></div>  </div>      </div>
+          <div class="item ">
+          
+  <div class="views-field views-field-field-banner-images">        <div class="field-content"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/banner/public/Ruined%20Croft%20near%20Seal%20Cottage%2C%20Oronsay%20%28COLO%202017%29.jpg?itok=_2KUl8p_" width="1140" height="430" /></div>  </div>      </div>
+          <div class="item ">
+          
+  <div class="views-field views-field-field-banner-images">        <div class="field-content"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/banner/public/Seal%20Cottage%20on%20Oronsay%20%28COLO%201995%29.jpg?itok=P8AEO6ET" width="1140" height="430" /></div>  </div>      </div>
+          <div class="item ">
+          
+  <div class="views-field views-field-field-banner-images">        <div class="field-content"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/banner/public/Paps%20of%20Jura%20from%20Baleromindubh%2C%20Colonsay%20%28COLO%201553%29.jpg?itok=5Z5yF9c2" width="1140" height="430" /></div>  </div>      </div>
+      </div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    <section class="col-sm-12">
+                  <a id="main-content"></a>
+      
+                        <h2 class="page-header">Accommodation Listing</h2>
+              
+                                                    <div class="region region-content">
+    <section id="block-system-main" class="block block-system first odd clearfix">
+
+      
+  <article id="node-22" class="node node-page clearfix" about="/accommodation" typeof="foaf:Document">
+    <header>
+            <span property="dc:title" content="Accommodation Listing" class="rdf-meta element-hidden"></span>      </header>
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Colonsay offers a wide variety of options for accommodation. Browse and filter the map, or find a full listing below.</p>
+</div></div></div>
+    </article>
+
+</section>
+<section id="block-views-accommodation-block" class="block block-views even clearfix">
+
+      
+  <div class="view view-accommodation view-id-accommodation view-display-id-block view-dom-id-b6801a4dbba7ef35c49fefb4f621839d">
+        
+      <div class="view-filters">
+      <form class="ctools-auto-submit-full-form" action="/" method="get" id="views-exposed-form-accommodation-block" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-tid-wrapper" class="views-exposed-widget views-widget-filter-tid">
+                  <label for="edit-tid">
+            Type of Accommodation:          </label>
+                        <div class="views-widget">
+          <div class="form-item form-item-tid form-type-select form-group"><div class="bef-select-as-links"><div class="form-item"><div class="form-item form-item-edit-tid-all form-type-bef-link form-group"><a href="http://www.colonsay.org.uk/accommodation?tid=All" class="active">Show All</a></div><div class="form-item form-item-edit-tid-4 form-type-bef-link form-group"><a href="http://www.colonsay.org.uk/accommodation?tid=4">Bed &amp; Breakfast</a></div><div class="form-item form-item-edit-tid-3 form-type-bef-link form-group"><a href="http://www.colonsay.org.uk/accommodation?tid=3">Hostels</a></div><div class="form-item form-item-edit-tid-2 form-type-bef-link form-group"><a href="http://www.colonsay.org.uk/accommodation?tid=2">Hotels</a></div><div class="form-item form-item-edit-tid-1 form-type-bef-link form-group"><a href="http://www.colonsay.org.uk/accommodation?tid=1">Self Catering</a></div></div><select class="form-control form-select" style="display: none;" id="edit-tid" name="tid"><option value="All" selected="selected">Show All</option><option value="4">Bed &amp; Breakfast</option><option value="3">Hostels</option><option value="2">Hotels</option><option value="1">Self Catering</option></select><input type="hidden" class="bef-new-value" name="tid" value="All" /></div></div>        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <button class="ctools-use-ajax ctools-auto-submit-click js-hide element-hidden btn btn-info form-submit" type="submit" id="edit-submit-accommodation" name="" value="Apply">Apply</button>
+    </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-content">
+      <div class="ip-geoloc-map leaflet-view amarkers">
+  <div id="ip-geoloc-map-of-view-accommodation-block-dabda270d07df16de8f13cbd2f023787"  style="height:450px"></div>
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-accommodation-listing-block" class="block block-views odd clearfix">
+
+      
+  <div class="view view-accommodation-listing view-id-accommodation_listing view-display-id-block view-dom-id-9279e0d40914f4ab186e3527d3f67135">
+        
+  
+  
+      <div class="view-content">
+        <h3>Self Catering</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/4b-glassard"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/4b.jpg?itok=pLGaKJeU" width="350" height="262" /></a><h2><a href="/accommodation/4b-glassard">4B Glassard &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6 - 8</strong>
+<p>Built in a traditional style, the architect-designed property has been reversed internally from the norm to provide the main living accommodation with an elevated outlook by locating these rooms on the first floor. This upper floor commands magnificent views and the opportunity to observe the changing panoramic seascape across to Jura and Islay.</p>
+
+<p><a href="https://www.independentcottages.co.uk/scottish_islands/4b-glassard-ref1641" target="_blank">Contact 4B Glassard (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/alister-annies"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/Alister-Annies-Cottage-Colonsay-G16-1030x735.jpg?itok=fk7kMGVv" width="350" height="262" /></a><h2><a href="/accommodation/alister-annies">Alister Annie&#039;s &raquo;</a></h2>
+<strong>Self Catering - Sleeps 4-5</strong>
+<p>A lovely stone crofters cottage, on its own little site within the Kilchattan hamlet, sleeps. 4/5. It is arranged on 2 levels: on the ground floor there is a sitting room with a coal fire, a kitchen/dining room, as well as the bathroom. There is a washing machine and a hanging clothes dryer. Upstairs there are 2 bedroom: one double (with an extra bed for a child) and one twin, these are accessed by steep ladder style staircases.</p>
+
+<p><a href="http://www.alisteranniescolonsay.co.uk/" target="_blank">Contact Alister Annie&#039;s (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/baleromindubh-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/0b862d11-2772-413e-be1d-998c49e2c1a6%20%281%29.jpg?itok=4uHH24by" width="350" height="262" /></a><h2><a href="/accommodation/baleromindubh-cottage">Baleromindubh Cottage &raquo;</a></h2>
+<strong>Self Catering - Sleeps 4</strong>
+<p>This cottage is situated on the east side of the island with stunning views towards Jura and Islay. It is accessed along a half-mile rough track. The sitting room has an open fire as does the kitchen/dining area, which also has a back boiler. There is one double bedroom and one twin bedroom with bunk beds. There is a bathroom with a shower. All accommodation is on one floor. This cottage has a dishwasher, washing machine and dryer.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/baleromindubh-cottage/526" target="_blank">Contact Baleromindubh Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/baleromindubh-farmhouse"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/6fccd40a-7ddc-45a3-96f0-61e02679d6d0.jpg?itok=xTsiiFBc" width="350" height="262" /></a><h2><a href="/accommodation/baleromindubh-farmhouse">Baleromindubh Farmhouse &raquo;</a></h2>
+<strong>Self Catering - Sleeps 10</strong>
+<p>This Victorian farmhouse is situated at the end of a mile-long rough track and has magnificent views. Located on the eastern side of the island, this is the only house to boast 180 degree sea views. On the ground floor there is a large kitchen/dining room, a sitting room with an open fire, one double bedroom, one twin bedroom and a shower-room with toilet and laundry facilities. There is a large front and back porch with space for coats and boots. Upstairs there is one double room, two twin bedrooms and a large bathroom with bath and shower.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/baleromindubh-farmhouse/520" target="_blank">Contact Baleromindubh Farmhouse (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/balerominmhor"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/3e86dcaf-d56c-4506-963e-f1b0e382fdad.jpg?itok=H0jujhHM" width="350" height="262" /></a><h2><a href="/accommodation/balerominmhor">Balerominmhor &raquo;</a></h2>
+<strong>Self Catering - Sleeps 12</strong>
+<p>This house is in a secluded location with stunning sea views and near a beach, Cable Bay. There is a large sitting room with a wood/coal burning stove and a large kitchen area with a rayburn. There is an additional large sunny dining/sitting room off the kitchen with sea views and double doors opening onto the garden.  There are 2 bedrooms downstairs, 1 double room with en suite bathroom and a further bedroom with bunk beds. There is an additional full bathroom and utility room downstairs.  Upstairs there is a double bedroom with an en suite bathroom, a triple bed room (with an additional pull out bed for a child) with an en suite bathroom and a large twin bedroom with a bathroom next door.  This house has a dishwasher, washing machine and clothes dryer. It has oil-fired centrral heating throughout.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/balerominmhor/521" target="_blank">Contact Balerominmhor (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/balnahard-farmhouse"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/gedc0299_orig.jpg?itok=wy4gv9YP" width="350" height="262" /></a><h2><a href="/accommodation/balnahard-farmhouse">Balnahard Farmhouse  &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>If you are looking for an old fashioned bucket &amp; spade holiday for the family, or a cosy hideaway for two, Balnahard will not disappoint. The stunning beaches of Kiloran &amp; Balnahard Bays are within easy reach,  and exclusive use of the private track gives Balnahard guests a unique privilege. The house has retained the character that comes with its West Highland heritage, and makes a wonderful base for up to 6 people, with a mix of period furniture, quirky accessories &amp; modern facilities.</p>
+
+<p><a href="https://www.balnahard.com/balnahard-farmhouse.html" target="_blank">Contact Balnahard Farmhouse  (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/carn-mor"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/2485be43f06ed4ae64a4ed9cccba79c2.jpg?itok=jZ75LEzF" width="350" height="262" /></a><h2><a href="/accommodation/carn-mor">Carn Mor &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>Carn Mor is a newly built cottage completed in 2013, with an uninterrupted view over Loch Fada.<br />It has 3 bedrooms and 3 bathrooms with full central heating throughout.  It has spacious living accommodation and a large upstairs playroom with snooker table, table football and xbox console for those occasional wet days.</p>
+
+<p><a href="http://www.carnmor.org" target="_blank">Contact Carn Mor (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/colnatarun-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/slider1.jpg?itok=LH2BvDzZ" width="350" height="262" /></a><h2><a href="/accommodation/colnatarun-cottage">Colnatarun Cottage &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6-8</strong>
+<p>Colnatarun is located on the west of the island, 4 miles either way, from the Pier, Hotel and Colonsay General Store. Delightfully situated, our cottage is spacious, well equipped and comfortable - a real home from home. A warm welcome awaits you. Jan and Archie will meet you at the pier and transport you to the cottage if you have no vehicle or meet you at the cottage on arrival. To make you instantly at home we greet you with fresh flowers, home made shortbread and a bottle of wine as well a small cupboard stocked with basic commodities e.g. tea, coffee, sugar, sauces, cooking oil and condiments.</p>
+
+<p><a href="http://www.colonsaycottage.co.uk/" target="_blank">Contact Colnatarun Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/drumclach-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/dsc04374.jpg?itok=f9n3ATM8" width="350" height="262" /></a><h2><a href="/accommodation/drumclach-cottage">Drumclach Cottage &raquo;</a></h2>
+<strong>Self Catering - 1 double, 2 twin rooms</strong>
+<p>Drumclach is a traditional stone built former croft house. It is located on the edge of a working croft, has a spacious walled garden and boasts a wonderful sea view.  Drumclach sleeps six in one double and two twin rooms; has a large newly refurbished kitchen and spacious sitting room, both with a sea view.  The bathroom has an electric shower over the bath and there is also a second toilet/utility room.  The cottage is equipped with television.</p>
+<p>Guests are supplied with bedlinen and towels.</p>
+
+<p><a href="http://www.spanglefish.com/CeolCholasatheweesite/index.asp" target="_blank">Contact Drumclach Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/fasgadh"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/fasgadh.jpg?itok=s4FJcjAW" width="350" height="262" /></a><h2><a href="/accommodation/fasgadh">Fasgadh &raquo;</a></h2>
+<strong>Self Catering - Sleep 6-8</strong>
+<p>Fasgadh, pronounced ‘fastgaig’, which means sanctuary in Gaelic, was built in 2006.  It is the first house over the cattle grid in the area called Glassard and is within walking distance of all the island’s amenities such as the pier, shop, brewery, tearoom, village hall and hotel.The house is simply but comfortably furnished and has hardwood floors throughout. Ideally sleepsing 6, there is a sofa bed in the living area for larger parties and a travel cot is available. There is an adult bicycle and a set of golf clubs which guests are welcome to borrow. Free WiFi. Email: <a href="mailto:fasgadhcolonsay@gmail.com">fasgadhcolonsay@gmail.com</a> Tel: 07792 820807</p>
+
+<p></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/gart-gobhan"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/DSC03367.jpeg?itok=sK7UE35G" width="350" height="262" /></a><h2><a href="/accommodation/gart-gobhan">Gart a&#039; Gobhan &raquo;</a></h2>
+<strong>Self Catering - Sleeps 4-6</strong>
+<p>Gart a' Gobhan cottage is on the west coast of the isle - a small, white rendered cottage with magnificent views of the setting sun.  It is our dream-come-true, a very much loved family home. Downstairs has a large double bedroom, king size bed and views to sea and garden, bathroom with shower-over; separate toilet with washing machine and dryer. Kitchen/dining room is newly refurbished, with handbuilt wooden painted units and butler's sink. Fridge/freezer, cooker, microwave plus large oak table and 6 wooden chairs. We have recently built a restful sitting room with large --shaped sofa and two armchairs. A multi-fuel stove makes the room cosy even on the coldest of nights.  This room has a huge glass wrap-around window giving panoramic views to the sea and sunsets. Up the steep stairs, a double bedroom with drawers and built-in wardrobe; small but very comfortable. Also a twin room with drawers and tiny wardrobe. Tel: 01258 453430 or 07770 827594</p>
+
+<p></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/garvard"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/869.jpg?itok=re7LLhge" width="350" height="262" /></a><h2><a href="/accommodation/garvard">Garvard &raquo;</a></h2>
+<strong>Self Catering - Sleeps 10</strong>
+<p>In a stunning location at the southern end of the island, this farmhouse is at the end of a half-mile-long rough track. The house is south facing, with commanding views over the sea (the tidal Strand) towards Oransay. The house has a large garden with a low drystone wall. On the ground floor there is a large kitchen/dining room, a sitting room with an open fire, two twin bedrooms (one with bunks) and a bathroom with a shower. Upstairs there is one double bedroom, two twin bedrooms and a bathroom with spectacular views over the strand.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/garvard/523" target="_blank">Contact Garvard (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/glebe-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/view.jpg?itok=zx5tO6NO" width="350" height="262" /></a><h2><a href="/accommodation/glebe-cottage">Glebe Cottage &raquo;</a></h2>
+<strong>Self Catering - Sleeps 4</strong>
+<p>Glebe Cottage is ideally situated for those who do not want to bring a car, since the village shop, hotel and Pantry are all within easy walking distance. Accommodation comprises 1 twin room and 1 double room, toilet with shower, living/dining room with patio doors and stunning views to the hills of Juran and Islay, leading out into a large enclosed garden. There is also a fully equipped kitchen with washing machine, dryer, fridge-freezer, microwave, gas hob and electric oven. The lounge has a solid-fuel stove. Glebe Cottage is available all year and short breaks are welcomed outwith July and August.</p>
+
+<p><a href="http://www.spanglefish.com/glebecottageuk/index.asp" target="_blank">Contact Glebe Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-14 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/highfield"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/IMG_0014.jpg?itok=_zdK7aN7" width="350" height="262" /></a><h2><a href="/accommodation/highfield">Highfield &raquo;</a></h2>
+<strong>Self Catering - Sleeps 2-13</strong>
+<p>Highfield is well positioned at Upper Kilchattan and is an ideal and very flexible house for families, groups or couples wanting to enjoy the peace and tranquillity of this beautiful and unspoilt island. Highfield has 5/6 bedrooms accommodating comfortably 2 to 13 people, it also has panoramic views over Kilchattan to the Atlantic Ocean and a garden of around one third of an acre to enjoy. The house was built 8 years ago and was new to the holiday let market in 2012. It has double glazing, oil central heating and comes equipped with internet and satellite TV upstairs and downstairs.  Discounts available outside of main season for groups of 5 persons or fewer.</p>
+
+<p><a href="https://www.colonsayholiday.co.uk/" target="_blank">Contact Highfield (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/colonsay-island-lodges"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/Gearspar_lodge_Colonsay__29_-min.jpg?itok=elMU6hEO" width="350" height="262" /></a><h2><a href="/accommodation/colonsay-island-lodges">Colonsay Island Lodges &raquo;</a></h2>
+<strong>Self Catering - Sleeps 5 Each</strong>
+<p>Situated next to the award-winning Colonsay Hotel, the self-catering Island Lodges are an ideal base to explore this remote tranquil island.</p>
+<p>Ideally suited to families, walkers, cyclists, bird-lovers, botanists, geologists, artists, nature lovers and photographers, the lodges offer very comfortable accommodation. Located very convenient to the pier, shop, post office, the church and both of the island’s licensed restaurants, Colonsay Island Lodges are the perfect base for your holiday in this stunning part of Scotland.</p>
+
+<p><a href="http://www.colonsayislandlodges.co.uk" target="_blank">Contact Colonsay Island Lodges (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-16 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/kennels"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/0e6bcd78-3504-4b32-a287-1cc547ff7a73.jpg?itok=P7AtvBZb" width="350" height="262" /></a><h2><a href="/accommodation/kennels">Kennels &raquo;</a></h2>
+<strong>Self Catering - Sleeps 4</strong>
+<p>This south-facing cottage is in a sunny position on the edge of the Colonsay House woodland gardens and is reached via a short track. This pretty cottage has views towards the hills above Loch Fada. There is a stream running through the bottom of the garden. It has a walled enclosed terrace area with outdoor furniture. The large open plan sitting/dining/kitchen area has a solid fuel stove with back boiler and double doors opening onto a terrace. There is one double bedroom, one bedroom with twin beds and a bathroom with shower. All accommodation is on one floor.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/-kennels/527" target="_blank">Contact Kennels (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-17 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/kiloran-bay-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/97c4be72-b470-442a-8d76-127f835b7b15.jpg?itok=NonUPZrJ" width="350" height="262" /></a><h2><a href="/accommodation/kiloran-bay-cottage">Kiloran Bay Cottage &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>Adjacent to Uragaig cottage, these two cottages are ideal for larger groups to take together. There is a short track leading to the cottages. The sitting/dining room has an open fire with back boiler and French doors with views to the south. There is a fully equipped kitchen, double bedroom and bathroom with a shower downstairs. A very steep staircase leads up to two twin-bedded bedrooms. This cottage has a washing machine. </p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/kiloran-bay-cottage/530" target="_blank">Contact Kiloran Bay Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-18 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/machrins"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/1031.jpg?itok=HrbABYhu" width="350" height="262" /></a><h2><a href="/accommodation/machrins">Machrins &raquo;</a></h2>
+<strong>Self Catering - Sleeps 12</strong>
+<p>This large Victorian farmhouse has beautiful views towards Machrins Bay. It provides comfortable accommodation for up to 3 families. On the western side of the island, the house is ideally located for the beach, golf course, hotel, shop and pier. On the ground floor there is a sitting room with an open fire, a good sized dining room, kitchen with a Rayburn (which also boosts the water), twin bedroom and a bathroom utility room with a bath and shower. On the first floor there are two double bedrooms, one with an ensuite bathroom, one twin bedroom and a further bathroom.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/machrins/517" target="_blank">Contact Machrins (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-19 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/mo-dhachaidh"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/img-2625C09715DB-48EF-516D-EDCF-3B5A873BBBD2.jpg?itok=Jpi15M3k" width="350" height="262" /></a><h2><a href="/accommodation/mo-dhachaidh">Mo Dhachaidh &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>Mo Dhachaidh is a traditional Island Home overlooking Kiloran Bay uninterrupted views of The Isle of Mull and over to Iona. Until the summer of 2015 it had been in the same family ownership since being built as a family Croft house in 1922, passing from one generation to the next. As Mo Dhachaidh is Gaelic for “My Home”, we have styled the house as a comfortable base for you to explore the wonderful natural surroundings and the wild beauty of Colonsay. Within Mo Dhachaidh and during 2015/16, all the rooms have been refurbished, on the ground floor a new kitchen, dining room with an open fire, comfortable lounge, the master double bedroom, a family bathroom and an entrance hall.</p>
+
+<p><a href="http://www.colonsayselfcatering.co.uk/" target="_blank">Contact Mo Dhachaidh (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-20 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/no-eight-glassard"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/trevor.jpg?itok=0VPDGS2q" width="350" height="262" /></a><h2><a href="/accommodation/no-eight-glassard">No. Eight Glassard &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>No. Eight is a delightful semi-detached property on the unspoilt Isle of Colonsay.</p>
+<p>Overlooking the harbour, with stunning views of Jura &amp; Islay, the house is located within a short walking distance from the island's amenities e.g. pier, doctors' surgery, shop/post office, Pantry, Hotel &amp; Community Hall &amp; garden.</p>
+<p>The house has been refurbished to a high standard and comprises one double bedroom, one twin bedroom and one bunkbedded bedroom on the first floor.</p>
+
+<p><a href="https://www.thistleandroseproperty.co.uk/" target="_blank">Contact No. Eight Glassard (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-21 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/nursery"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/0593877e-e7d9-4f6d-9303-e40e5d8b83bd.jpg?itok=g-SBwcQX" width="350" height="262" /></a><h2><a href="/accommodation/nursery">Nursery &raquo;</a></h2>
+<strong>Self Catering - Sleeps 2</strong>
+<p>This apartment is on the first floor with beautiful views over the gardens. The sitting/dining room has a sunny aspect and has an open fire.  There is a separate small kitchen. The double bedroom has an en suite bathroom and also has extensive views over the beautiful Colonsay House garden. This apartment has a TV and DVD player (one of only 2 of our properties to do so). There is a fully equipped laundrette which is available to our guests free of charge.  It is located next to the car park at Colonsay House.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/nursery/534" target="_blank">Contact Nursery (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-22 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/pairc-mholach"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/dec-2015-050.jpg?itok=zaDYy_vq" width="350" height="262" /></a><h2><a href="/accommodation/pairc-mholach">Pairc Mholach &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6-8</strong>
+<p>The cottage is situated below the ancient fort of Dun Meadhonach on Drumclach croft on the west coast of Colonsay. It overlooks Port Mor and has superb views to the sea. The cottage is built along traditional lines and was completed in 2002. It is fully equipped with oil central heating, a wood-burning stove, dishwasher, freezer, washing machine, telephone, TV and Wif-Fi. Downstairs - large kitchen, living room, bunk bedroom, shower &amp; utility room. Upstairs - double bedroom, twin bedroom &amp; bathroom. Outside - enclosed garden with parking, lawn, patio &amp; shed suitable for storing bicycles, equipment etc. </p>
+
+<p><a href="http://www.spanglefish.com/paircmholach/index.asp" target="_blank">Contact Pairc Mholach (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-23 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/pondside"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/3449db97-e85c-4921-aee0-7b70a1732e79.jpg?itok=5mv3D8Qr" width="350" height="262" /></a><h2><a href="/accommodation/pondside">Pondside &raquo;</a></h2>
+<strong>Self Catering - Sleeps 5</strong>
+<p>This pretty cottage is located near the pond in the beautiful woodland gardens. It has a sunny and very sheltered garden, which is south facing. On the ground floor there is a sitting room with an open fire, a kitchen, a dining room/study with a sofa bed, bathroom with a shower and a utility room with an extra toilet. Upstairs there is one double bedroom and one twin bedroom, both attic rooms with dormer windows. This house has a small sitting room and kitchen and is only suitable for a maximum of 4 adults or a family of 2 adults and 3 children.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/pondside/524" target="_blank">Contact Pondside (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-24 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/scalasaig-farmhouse"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/3a4b930d-fde4-47f4-a95c-c5485e770ba6.jpg?itok=a4X9tbOU" width="350" height="262" /></a><h2><a href="/accommodation/scalasaig-farmhouse">Scalasaig Farmhouse &raquo;</a></h2>
+<strong>Self Catering - Sleeps 10</strong>
+<p>This traditional farmhouse is located down a short track and is quite close to the hotel, shop and the harbour. It is south facing, in an open sunny position, with extensive countryside views. The house is well equipped and has a dishwasher, washing machine and clothes drier.  It has a large garden and lovely views southward to the hills. It is within five minutes walk of Colonsay hotel. </p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/scalasaig-farmhouse/522" target="_blank">Contact Scalasaig Farmhouse (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-25 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/seaview-studio-apartment"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/VpO3CV6.png?itok=l1HxGn3G" width="350" height="262" /></a><h2><a href="/accommodation/seaview-studio-apartment">Seaview Studio Apartment &raquo;</a></h2>
+<strong>Self Catering - Sleeps 2</strong>
+<p>"The Studio Apartment" accommodates two people. There are twin beds in the main room with patio doors facing south, electric heating and satellite TV. It also has a shower room and a separate kitchenette with cooker, fridge etc. There is a small garden with seating. 2018 available on the simple basis of £50 per night. </p>
+
+<p><a href="http://www.colonsay.eu/AccoSeaview.htm" target="_blank">Contact Seaview Studio Apartment (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-26 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/sgreadan-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/006db322-b289-46c5-9c09-11309b7ca543.jpg?itok=_jLnQHPu" width="350" height="262" /></a><h2><a href="/accommodation/sgreadan-cottage">Sgreadan Cottage &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>This stone cottage has wonderful views over Loch Fada and is set back about 100m above the road up a short track. The sitting/dining room has an open fire and an adjoining kitchen, also  with a small dining area. Downstairs, there is a double bedroom and a bathroom with a shower.  There are two twin-bedded attic rooms upstairs, that are reached by a steep staircase. This house has a dishwasher, washing machine and clothes dryer. The cottage has a small garden, surrounded by a low drystone wall, with outdoor furniture.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/sgreadan-cottage/525" target="_blank">Contact Sgreadan Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-27 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/taigh-chladaich"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/2015-09-06%2018.10.29%20%281%29.jpg?itok=uWiZZEUD" width="350" height="262" /></a><h2><a href="/accommodation/taigh-chladaich">Taigh a&#039; Chladaich &raquo;</a></h2>
+<strong>Self Catering - Sleeps 5</strong>
+<p>Set in the heart of the remote crofting community of Uragaig, Taigh a’Chladaich is a modern family home, surrounded by croft land, with far reaching views across to Mull and Iona, while Kiloran Bay , with its stunning sandy beach is with in easy walking distance, as are the hills around Loch Sgoltaire. Taigh a’Chladaich has been recently refurbished to provide comfortable up-to-date living, and has 5 bedrooms, with 1 double upstairs and 1 double downstairs making it suitable for anywhere from a couple up to an extended family. Please ask about suitability for dogs.</p>
+<p>Tel: 07760 265856 / 0131 208 2320 / 01951 200150</p>
+
+<p></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-28 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/tobaroran"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/528b6e7f-18d5-4cec-a6dc-30d8bad9b3fc.jpg?itok=La0fnsvh" width="350" height="262" /></a><h2><a href="/accommodation/tobaroran">Tobaroran  &raquo;</a></h2>
+<strong>Self Catering - Sleeps 10</strong>
+<p>The house is situated close to the harbour with wonderful views toward Jura and Islay and has a large garden enclosed by a low drystone wall. This house has a spacious sitting room with open fire and back boiler. The large dining room has an open fire and adjoins the small, but well equipped, kitchen. There is one twin-bedded room and a shower room with toilet downstairs. Upstairs, there is a further bathroom, one double bedroom, one twin bedded bedroom and a large bedroom with two single beds and one pair of bunk beds.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/tobaroran/528" target="_blank">Contact Tobaroran  (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-29 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/uragaig-cottage"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/95748666-9566-4de5-b41a-ce99b2f09abd.jpg?itok=hP2bkoqM" width="350" height="262" /></a><h2><a href="/accommodation/uragaig-cottage">Uragaig Cottage &raquo;</a></h2>
+<strong>Self Catering - Sleeps 6</strong>
+<p>This is one of two cottages that look over spectacular Kiloran Bay. There is a short track leading to the cottages. The sitting/dining room has an open fire with back boiler and French doors with views to the south. There is a fully equipped kitchen, a double bedroom and bathroom with a shower downstairs. A very steep staircase leads up to two twin-bedded bedrooms. This cottage has a dishwasher.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/cottages/-uragaig-cottage/529" target="_blank">Contact Uragaig Cottage (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <h3>Bed &amp; Breakfast</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/creag-nan-ubhal"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/IMG_7197.jpg?itok=ABaZU1Kg" width="350" height="262" /></a><h2><a href="/accommodation/creag-nan-ubhal">Creag nan Ubhal &raquo;</a></h2>
+<strong>Bed &amp; Breakfast - 2 twin rooms, 1 double</strong>
+<p>Creag nan Ubhal is a modern house, on the north west coast of Colonsay, about 4 miles from the ferry terminal at Scalasaig. It has wonderful panoramic views across Uragaig towards the Ross of Mull, the Torran Rocks and Dubh Artach lighthouse. It is an excellent centre for walkers, ornithologists and botanists. Buzzards and harriers are frequently seen above the raised beach in front of the house. A short walk takes you to pebble beaches, with cliffs where kittiwake, gannets and razorbills can be found. Another five minute walk takes you to the magnificent Kiloran Bay, with its unbroken golden sands. Nearby Loch an Sgoltaire and Loch Fada are ideal for trout fishing.</p>
+<p>The house has three letting rooms, two twin-bedded en suite rooms, and one double bedded room with a private bathroom. All rooms have views across the sea towards Mull, Iona, and Tiree. Each room has tea/coffee making facilities, colour television with Freeview, hairdryer and radio alarm clock. We also have a large guest lounge with a well stocked library, board games, television and DVDs for the occasional wet day. Free WiFi internet access is available.</p>
+<p>There is a choice of continental or full Scottish breakfast which is served in the separate dining room. Packed lunches are available on request. Dogs are very welcome downstairs, but we cannot allow them in the bedrooms. </p>
+
+<p><a href="http://www.creagnanubhal.co.uk/" target="_blank">Contact Creag nan Ubhal (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<h2><a href="/accommodation/dharma-cottage">Dharma Cottage &raquo;</a></h2>
+<strong>Bed &amp; Breakfast - 3 double rooms</strong>
+<p>Dharma Cottage is a modern cottage approximately three miles from the ferry port and is situated near the west coast of Colonsay.</p>
+<p>The Cottage has three bright and airy double letting rooms. Two rooms have spacious power showers and the third room has a shower and traditional bath. There is a comfortable and cosy guest lounge with a large selection of books for the guests to browse through, there is also a T.V. with a selection of DVD films to watch - or maybe you would just like to relax and meet the other guests. Tea and coffiee is available at all times in the dining room where breakfast is also served. Continental and full Scottish breakfast is available (please state which, on arrival). If there is any special food requirement, please let me know when booking.</p>
+<p>The cottage is in a convenient location for trout-fishing in Loch Fada and is centrally placed to explore the entire west coast including a half-mile walk to the dramatic sea cliffs to witness the largest sea-bird colony in the Southern Hebrides. A comfortable one-mile walk (or bike hire from Archie MacConnell, 01951 200355) would place you at Machrins Bay, the golf course and the trrack which leads you to the remote Ardskenish peninsula.</p>
+<p>James and Anne Johnstone<br />Dharma Cottage<br />Lower Kilchattan<br />Isle of Colonsay<br />PA61 7YR</p>
+<p>Tel: 01951 2001412 or e-mail: <a href="mailto:james.johnstone7@ntlworld.com">james.johnstone7@ntlworld.com</a></p>
+
+<p></p>
+
+</div></span>  </div>  </div>
+  <h3>Hotels</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/colonsay-hotel"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/Colonsay%20Hotel%20in%20Scalasaig%2C%20Colonsay%20%28COLO%202121%29.jpg?itok=zBSiCNsy" width="350" height="262" /></a><h2><a href="/accommodation/colonsay-hotel">The Colonsay Hotel &raquo;</a></h2>
+<strong>Hotels - 8 rooms</strong>
+<p>Built in 1750 as an inn for the local population and the rare visitor, the exterior of The Colonsay hotel in Scotland has remained largely unchanged. Perched on the hillside above the harbour, the hotel has commanding views over the sea to the neighbouring island of Jura.<br /><br />Inside, The Colonsay retains much of its original charm and is relaxed and comfortable. With open fires, painted floorboards and deep sofas in the bar, log room, library or restaurant, there is always a perfect spot to relax in. The restaurant is more gastro-pub than formal dining and uses local produce wherever possible.</p>
+<p>We provide free wireless internet access throughout the downstairs rooms in the hotel.</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/hotel/" target="_blank">Contact The Colonsay Hotel (external website)</a></p>
+
+</div></span>  </div>  </div>
+  <h3>Hostels</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="accomlisting">
+<a href="/accommodation/backpackers-lodge"><img typeof="foaf:Image" class="img-responsive" src="http://www.colonsay.org.uk/sites/default/files/styles/photogallery-thumbnail-350/public/481.jpg?itok=xN_QfmxJ" width="350" height="262" /></a><h2><a href="/accommodation/backpackers-lodge">Backpacker&#039;s Lodge &raquo;</a></h2>
+<strong>Hostels - Sleeps 16 Max</strong>
+<p>The Lodge is located in a peaceful spot in the centre of the island with commanding views towards Loch Fada. It is quiet and peaceful with no other houses close by. The pub, shop and pier are 2 km away. The Lodge is very well equipped and has a large garden with lawns and shrubs and outdoor furniture.</p>
+<p>The Lodge consists of a Victorian former gamekeeper's house and two traditional stone bothies adjacent to the house. The bothies are particularly rustic with exposed stone walls on the inside. The house is newly refurbished and is extremely comfortable.</p>
+<p>Sleeping a maximum of 16 people in two separate buildings, for those on a budget, the Lodge is a peaceful and comfortable base from which to explore the island.</p>
+<p>FREE Wi-Fi</p>
+
+<p><a href="http://www.colonsayholidays.co.uk/backpackers/" target="_blank">Contact Backpacker&#039;s Lodge (external website)</a></p>
+
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-latest-news-block" class="block block-views last even clearfix">
+
+      
+  <div class="fullwidth newscarousel">
+<div class="view view-latest-news view-id-latest_news view-display-id-block view-dom-id-015553632154ee53ff583820d18b9ded">
+            <div class="view-header">
+      <h2>Latest News</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+      
+<div id="views-bootstrap-carousel-2" class="views-bootstrap-carousel-plugin-style carousel slide"  data-ride="carousel">
+  
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+          <div class="item active">
+          
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><div class="row">
+<div class="col-sm-12"><strong>26th September, 2018 - Church Service</strong>
+<p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm"><span><b><span><span><span>Sunday 30</span></span></span></b><b><sup><span><span><span>th</span></span></span></sup></b><b><span><span><span> 11.30 am, Colonsay Parish Church.</span></span></span></b></span></p>
+<p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm"><span><span><span><span><span><span><span><span><span><b><span><span><span><span><span><span><span>Sunday service delivered by Myrtle Gillies.</span></span></span></span></span></span></span></b></span></span></span></span></span></span></span></span></span></p>
+<p> </p>
+</div>
+</div></span>  </div>      </div>
+          <div class="item ">
+          
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><div class="row">
+<div class="col-sm-12"><strong>26th September, 2018 - Macmillan Coffee Morning</strong>
+<p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm"><span><b><span><span><span>Friday 28</span></span></span></b><b><sup><span><span><span>th</span></span></span></sup></b><b><span><span><span> 11am – 1pm, the Village Hall, Scallasaig.</span></span></span></b></span></p>
+<p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm"><span><span><span><span><span><span><span><span><span><b><span><span><span><span><span><span><span>Tea, Coffee and a range of baked goods. All proceeds go to the Macmillan cancer charity.</span></span></span></span></span></span></span></b></span></span></span></span></span></span></span></span></span></p>
+</div>
+</div></span>  </div>      </div>
+          <div class="item ">
+          
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><div class="row">
+<div class="col-sm-12"><strong>24th August, 2018 - Colonsay.org.uk</strong>
+<p>The new Colonsay.org.uk website is live!</p>
+<p>With some financial help from HIE, the new site was launched at the end of August. Some areas of the site still require attention but the work is ongoing. Further improvements are planned to help keep the site up to date and as user friendly as possible. So, sit down, relax and have a look around and be sure to let us know what you think.</p>
+</div>
+</div></span>  </div>      </div>
+      </div>
+
+      <!-- Carousel navigation -->
+    <a class="carousel-control left" href="#views-bootstrap-carousel-2" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="carousel-control right" href="#views-bootstrap-carousel-2" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+
+</section>
+  </div>
+    </section>
+
+    
+    
+  </div>
+</div>
+<div class="fullgreen footerfull">
+<footer class="footer container">
+  <div class="row">
+      <div class="col-sm-12">
+       <div class="region region-footer">
+    <section id="block-block-1" class="block block-block first last odd clearfix">
+
+      
+  <div class="row">
+ <div class="col-sm-4 footerleft">
+<p><a href="http://corncrake.org.uk"><img src="/images/corncrake.png" /></a></p>
+<p><a href="https://www.ruralnetwork.scot/funding/leader"><img src="/images/leader.png" /></a> <a href="http://www.hie.co.uk"><img src="/images/hie.png" /></a></p>
+ </div> 
+ <div class="col-sm-4 footermid">
+<p>Find us on:</p>
+<ul>
+<li class="tripadvisor"><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor &raquo;</a></li>
+<li class="facebook"><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook &raquo;</a></li>
+<li class="youtube"><a href="https://www.youtube.com/results?search_query=colonsay">Youtube &raquo;</a></li>
+</ul>
+ </div> 
+ <div class="col-sm-4 footerright">
+<p>Banner photos &copy; Ruari Cumming ARPS:<br />
+<a href="http://www.hebridean-island-images.com">www.Hebridean-Island-Images.com</a></p>
+<div class="footerbutton">
+<a href="/newsletter"><button type="button" class="btn btn-default btn-newsletter">Sign up to our Newsletter</button></a>
+</div>
+ </div>
+</div>
+<div class="row">
+ <div class="col-sm-12 footerlower">
+&copy; 2018 Colonsay Community Development Company - <a href="/island/about-us">Contact Us</a>
+</div>
+</div>
+</section>
+  </div>
+    </div>
+  </div>
+</footer>
+</div>  <script src=""></script>
+<script src="/assets/s/js_OTdL_00eEtQq3wzsUAHLDYwgtcHpzbgUFYeJRcQf8f8.js"></script>
+</body>
+</html>
