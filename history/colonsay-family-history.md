@@ -16,19 +16,19 @@ Although the Deaths register of Colonsay is very late and brief, the Baptismal a
 
 **Baptisms 1796 - 1855<br />Marriages 1796 - 1854<br />Deaths 1848 - 1854**
 
-<span class="file"><img class="file-icon" alt="Package icon" title="application/zip" src="/images/package-x-generic.png" /> <a href="/downloads/oldparishregister.zip" type="application/zip; length=290352">oldparishregister.zip</a></span>
+<span class="file"><img class="file-icon" alt="Package icon" title="application/zip" src="{{ site.url }}{{ site.baseurl }}/images/package-x-generic.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/oldparishregister.zip" type="application/zip; length=290352">oldparishregister.zip</a></span>
 
 ## Census Records for Colonsay and Oransay
 
 **1841 Census and Enumerator's Report<br />1851 Census and Enumerator's Report also 1851 Note<br />1861 Census and Enumerator's Report<br />1871 Census and Enumerator's Report<br />1881 Census and Enumerator's Report<br />1881 Census extract: Highland residents born in Colonsay<br />1881 Census extract: Lowland residents born in Colonsay<br />1891 Census and Enumerator's Report<br />Interesting notes on 1891 Census<br />1901 Census and Enumerator's Report**
 
-<span class="file"><img class="file-icon" alt="Package icon" title="application/zip" src="/images/package-x-generic.png" /> <a href="/downloads/censusrecords.zip" type="application/zip; length=499010">censusrecords.zip</a></span>
+<span class="file"><img class="file-icon" alt="Package icon" title="application/zip" src="{{ site.url }}{{ site.baseurl }}/images/package-x-generic.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/censusrecords.zip" type="application/zip; length=499010">censusrecords.zip</a></span>
 
 ## Gravestone Inscriptions for Colonsay and Oransay
 
 **Colonsay Gravestones (now corrected to July 2007 - KB)<br />Oronsay Gravestones**
 
-<span class="file"><img class="file-icon" alt="Package icon" title="application/zip" src="/images/package-x-generic.png" /> <a href="/downloads/graves.zip" type="application/zip; length=163411">graves.zip</a></span>
+<span class="file"><img class="file-icon" alt="Package icon" title="application/zip" src="{{ site.url }}{{ site.baseurl }}/images/package-x-generic.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/graves.zip" type="application/zip; length=163411">graves.zip</a></span>
 
 ## The War Memorial
 
@@ -44,6 +44,6 @@ In the meantime, see Professor Sheets essay about Colonsay Emigration, which is
 
 This pdf contains dedicated "one-name" sections which will carry information about local families and promote additional research.
 
-<span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/images/application-pdf.png" /> <a href="/downloads/One%20Name.pdf" type="application/pdf; length=352758">One Name.pdf</a></span>
+<span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.url }}{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/One%20Name.pdf" type="application/pdf; length=352758">One Name.pdf</a></span>
 
 Researchers are invited to contribute postings, whether it is to impart or seek information.  The facility was created on 24 December 2006, with a list of the 33 family names to which baptisms in Colonsay were registered 1796 - 1799 inclusive.

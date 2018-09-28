@@ -37,4 +37,4 @@ Each MacPhie is listed below but a handy pdf with a map of each one is available
 <div class="field field-name-field-fileattachments field-type-file field-label-above clearfix">
       <div class="field-label"><h3>File Attachments:&nbsp;</h3></div>
     <div class="field-items">
-          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/images/application-pdf.png" /> <a href="/downloads/MacPhie.pdf" type="application/pdf; length=568115">MacPhie.pdf</a></span>
+          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.url }}{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/MacPhie.pdf" type="application/pdf; length=568115">MacPhie.pdf</a></span>

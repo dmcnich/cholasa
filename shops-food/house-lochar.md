@@ -10,4 +10,4 @@ Please note that all books in our catalogue with a "Buy Now" button are availabl
 
 For all purchases, please refer to our main catalogue <a href="http://houseoflochar.com">houseoflochar.com</a> which includes Airmail postage options for all destinations.
 
-If you are in Colonsay, please visit our <a href="/shops-food/bookshop">Bookshop</a>, which carries all our own titles in addition to a very wide range of other books - it has an excellent reputation and owes its success to the support of its loyal customers - thank you!
+If you are in Colonsay, please visit our <a href="{{ site.url }}{{ site.baseurl }}/shops-food/bookshop">Bookshop</a>, which carries all our own titles in addition to a very wide range of other books - it has an excellent reputation and owes its success to the support of its loyal customers - thank you!

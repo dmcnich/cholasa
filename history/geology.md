@@ -16,4 +16,4 @@ For further information on local material, please refer to the geological notes 
 <div class="field field-name-field-fileattachments field-type-file field-label-above clearfix">
       <div class="field-label"><h3>File Attachments:&nbsp;</h3></div>
     <div class="field-items">
-          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/images/application-pdf.png" /> <a href="/downloads/geology%20of%20colonsay.PDF" type="application/pdf; length=324196">geology of colonsay.PDF</a></span>
+          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.url }}{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/geology%20of%20colonsay.PDF" type="application/pdf; length=324196">geology of colonsay.PDF</a></span>

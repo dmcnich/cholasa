@@ -16,7 +16,7 @@ This honey is not another sweetener to go into the cupboard with supermarket hon
 <div class="blueblock" style="text-align:right">Lesley Lindsay, Astead, Surrey</div>
 </blockquote>
 
-We also offer <a href="/things-do/beekeeping-courses">Beekeeping Courses</a> for both beginners and intermediate.
+We also offer <a href="{{ site.url }}{{ site.baseurl }}/things-do/beekeeping-courses">Beekeeping Courses</a> for both beginners and intermediate.
 
 ## What gives Isle of Colonsay Wildflower Honey it's special flavour?
 

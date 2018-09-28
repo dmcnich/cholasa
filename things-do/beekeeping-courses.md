@@ -7,7 +7,7 @@ Why not combine a weekend beekeeping course with a visit to one of Scotland’s 
 Beginners - to suit complete beginners and those with some background and who are perhaps starting with their own bees.
 
 Intermediate – to suit those with some experience but who wish to improve skills.</p>
-<img class="media-element file-default img-responsive" data-delta="1" typeof="foaf:Image" src="/images/Web%20site%20Bees%20Courses%20002.jpg" width="500" height="375" alt="" />
+<img class="media-element file-default img-responsive" data-delta="1" typeof="foaf:Image" src="{{ site.url }}{{ site.baseurl }}/images/Web%20site%20Bees%20Courses%20002.jpg" width="500" height="375" alt="" />
 
 ### Course Dates for 2019
 
@@ -31,7 +31,7 @@ Andrew Abrahams has kept bees commercially on Colonsay for over 30 years and has
 
 ## The Courses
 
-<img class="media-element file-side-image-right img-responsive" data-delta="2" typeof="foaf:Image" src="/images/Web%20site%20Bees%20Courses%20008.jpg" width="460" height="345" alt="" />
+<img class="media-element file-side-image-right img-responsive" data-delta="2" typeof="foaf:Image" src="{{ site.url }}{{ site.baseurl }}/images/Web%20site%20Bees%20Courses%20008.jpg" width="460" height="345" alt="" />
 
 All courses are limited to 8 participants, allowing everyone to get good access to the bees. Participants are encouraged to handle the bees and to raise their individual questions and concerns. Teaching is based very much on the premise that, we forget much of what we read or hear; we remember some of what we see; and we forget little of what we do
 

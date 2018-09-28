@@ -10,7 +10,7 @@ The caves at the north end of Kiloran Bay are visited quite easily, but the New 
 
 ## Heritage Centre
 
-Visit the temporary heritage centre at Port Mòr. Find out more about the <a href="/our-community/colonsay-and-oransay-heritage-trust">Colonsay and Oransay Heritage Trust</a>.
+Visit the temporary heritage centre at Port Mòr. Find out more about the <a href="{{ site.url }}{{ site.baseurl }}/our-community/colonsay-and-oransay-heritage-trust">Colonsay and Oransay Heritage Trust</a>.
 
 ## Star Gazing
 
