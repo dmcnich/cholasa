@@ -156,13 +156,8 @@
   
   <!-- Carousel items -->
   <div class="carousel-inner">
-            <div class="item active">     
-  <div class="views-field views-field-views-conditional">        <span class="field-content"><div class="row">
-<div class="col-sm-12"><strong> All the news that's fit to print: just click to find out what's on </strong>
-</div>
-</div></span>  </div>      </div>
     {% for post in site.posts reversed %}
-      <div class="item">     
+      <div class="item {% if post == site.posts.last %}active{% endif %}">     
   <div class="views-field views-field-views-conditional">        <span class="field-content"><div class="row">
 <div class="col-sm-12"><strong> {{ post.date | date_to_long_string }}- {{ post.title }}</strong>
 <p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm"><span><b> {{ post.time }} {{ post.place }}.</b></span></p>
