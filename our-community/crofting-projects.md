@@ -1,6 +1,6 @@
 ---
 title: Crofting Projects
-category: Our Community
+category: Community
 ---
 
 ## Update March 2017

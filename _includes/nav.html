@@ -18,7 +18,7 @@
             
       <ul class="menu nav navbar-nav">
         <li class="leaf"><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-        <li class="leaf"><a href="/accommodation.html">Accommodation</a></li>  
+        <li class="leaf"><a href="{{ site.url }}{{ site.baseurl}}/accommodation.html">Accommodation</a></li>  
         
             {% assign pages = site.pages | group_by: 'category' | sort: 'name' %}
             {% for cat in pages %}

@@ -1,6 +1,6 @@
 ---
 title: Community Council
-category: Our Community
+category: Community
 ---
 
 The Community Council usually meets each month in the Hall. Meeting dates are posted on the Shop Notice Board. Meetings are open to all on the island.

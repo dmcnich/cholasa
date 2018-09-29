@@ -1,6 +1,6 @@
 ---
 title: Colonsay Church
-category: Our Community
+category: Community
 ---
 
 Church Services are held every Sunday in the Church of Scotland Parish Church at Scalasaig, at 11.30 a.m. These are joint services with the Baptist Congregation, and the arrangement is to permit united worship.  Ours is a notably ecumenical community, and persons of all denominations are very welcome to attend. The regular congregation also includes persons of the Methodist, Episcopalian, Evangelical and Roman Catholic traditions. The parish is served by visiting ministers whose faithful support is highly valued by all members of the combined congregation. The Parish Church is just opposite the hotel, there is reasonable disabled access.
