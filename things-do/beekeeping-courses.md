@@ -1,5 +1,6 @@
 ---
 title: Beekeeping Courses
+category: Things To Do
 ---
 
 Why not combine a weekend beekeeping course with a visit to one of Scotland’s most remote and beautiful islands. Courses are taught at two levels:-

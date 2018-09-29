@@ -1,5 +1,6 @@
 ---
 title: Colonsay Family History
+category: History
 ---
 
 Family History Resources

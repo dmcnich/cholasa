@@ -1,5 +1,6 @@
 ---
 title: Boat Trips
+category: Things To Do
 ---
 
 ## Tailor-made Boat Trips

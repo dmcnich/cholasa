@@ -1,5 +1,6 @@
 ---
 title: Colonsay General Store
+category: Shops & Food
 ---
 
 <img class="media-element file-default img-responsive" data-delta="1" typeof="foaf:Image" src="{{ site.url }}{{ site.baseurl }}/images/ShopLogo.png" width="960" height="349" alt="" />

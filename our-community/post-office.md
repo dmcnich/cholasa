@@ -1,5 +1,6 @@
 ---
 title: The Post Office
+category: Our Community
 ---
 
 Colonsay Post Office is situated in Scalasaig attached to Colonsay General Store and is in easy walking distance from the pier, <a href="{{ site.url }}{{ site.baseurl }}/shops-food/pantry">Pantry</a>, <a href="{{ site.url }}{{ site.baseurl }}/shops-food/colonsay-brewery">Brewery</a>, <a href="{{ site.url }}{{ site.baseurl }}/shops-food/bookshop">Bookshop</a>, Christine's Den, The Old Waiting Room Gallery and the Hotel.

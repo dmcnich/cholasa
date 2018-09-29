@@ -1,5 +1,6 @@
 ---
 title: Colonsay Brewery
+category: Shops & Food
 ---
 
 Colonsay is the smallest island in the entire world with its own brewery.

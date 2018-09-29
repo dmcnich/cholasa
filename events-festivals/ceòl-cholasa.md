@@ -1,5 +1,6 @@
 ---
 title: Ceòl Cholasa
+category: Events & Festivals
 ---
 
 <img class="media-element file-side-image-right img-responsive" data-delta="2" typeof="foaf:Image" src="/images/unnamed.jpg" width="408" height="184" alt="" />Ceòl Cholasa is usually held the third weekend of September each year, and for 2018 the dates will be 13th to 16th September.

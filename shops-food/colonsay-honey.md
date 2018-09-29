@@ -1,5 +1,6 @@
 ---
 title: Colonsay Honey
+category: Shops & Food
 ---
 
 ## A Taste of Hebridean Wildflowers

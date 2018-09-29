@@ -1,5 +1,6 @@
 ---
 title: Colonsay and Oransay Heritage Trust
+category: Our Community
 ---
 
 *Urras Dualchais Orasaidh is Colbhasaid*

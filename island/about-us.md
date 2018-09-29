@@ -1,5 +1,6 @@
 ---
 title: About Us
+category: The Island
 ---
 
 The colonsay.org.uk website is owned and operated by the Colonsay Community Development Company, or CCDC. We were formed in 2000 and are committed to the continued development of the Isle of Colonsay.

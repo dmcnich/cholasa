@@ -1,5 +1,6 @@
 ---
 title: Areas of Interest
+category: History
 ---
 
 There is evidence of human activity on Colonsay going back to 7,000 B.C. and all over the island you can find evidence of Colonsay's long history ranging from the Iron Age forts and duns which still dominate the Colonsay skyline, to the abandoned village of Riasg Buidhe, which was inhabited up to 1918. There are several historical sources for those who wish to learn about Colonsay's history, all of which are stocked by the Colonsay Bookshop. We have also been given permission by the The Royal Commission on the Ancient and Historical Monuments of Scotland to publish on this site the introduction to their definitive guide to all things archaeological on Colonsay and Oransay "Colonsay & Oronsay - An Inventory of the Monuments extracted from Argyll Volume 5".

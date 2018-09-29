@@ -1,5 +1,6 @@
 ---
 title: What's On
+category: Things To Do
 ---
 
 ## September 2018<

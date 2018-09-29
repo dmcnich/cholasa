@@ -1,5 +1,6 @@
 ---
 title: Archie's Bike Hire
+category: Things To Do
 ---
 
 Archie's Bike Hire - Celebrating more than 35 years of cycle hire!

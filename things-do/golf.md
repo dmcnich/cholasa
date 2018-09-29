@@ -1,5 +1,6 @@
 ---
 title: Golf
+category: Things To Do
 ---
 
 “Golf as it was first played”.

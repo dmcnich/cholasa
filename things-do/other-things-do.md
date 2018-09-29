@@ -1,5 +1,6 @@
 ---
 title: Other Things To Do
+category: Things To Do
 ---
 
 There's no lack of activities to fill your holiday on Colonsay. We've highlighted a few on their own pages in the menu above, and some other ideas below:

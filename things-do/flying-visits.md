@@ -1,5 +1,6 @@
 ---
 title: Flying Visits
+category: Things To Do
 ---
 
 ## Flying Visits

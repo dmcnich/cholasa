@@ -1,5 +1,6 @@
 ---
 title: Colonsay Book Festival
+category: Events & Festivals
 ---
 
 The 2019 Colonsay Book Festival will take place on the 27th and 28th of April.

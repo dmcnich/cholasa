@@ -1,5 +1,6 @@
 ---
 title: Festival of Spring
+category: Events & Festivals
 ---
 
 Just over 8 years ago, The Colonsay Tourism &amp; Marketing Group came up with the idea of having a festival to celebrate the wonderful season of spring on Colonsay, and set about organising an event to bring visitors to the island to enjoy this season and to learn more about the rich natural heritage. Thus the annual Colonsay Festival of Spring was born.

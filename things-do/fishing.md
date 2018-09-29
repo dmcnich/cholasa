@@ -1,5 +1,6 @@
 ---
 title: Fishing
+category: Things To Do
 ---
 
 ## Colonsay Fly-fishing Association

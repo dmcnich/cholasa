@@ -1,5 +1,6 @@
 ---
 title: House of Lochar
+category: Shops & Food
 ---
 
 For well over twenty years, this small publishing business has operated from Colonsay, making full use of digital technology and building a list of excellent titles. We hope that you will enjoy reading through our catalogue - all of our titles are available through reputable bookshops worldwide, but of course we are delighted to fulfil retail orders direct from our warehouse here in Colonsay.

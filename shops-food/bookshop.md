@@ -1,5 +1,6 @@
 ---
 title: The Bookshop
+category: Shops & Food
 ---
 
 ## Publications about Colonsay

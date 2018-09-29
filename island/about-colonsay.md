@@ -1,5 +1,6 @@
 ---
 title: About Colonsay
+category: The Island
 ---
 
 The island of Colonsay lies in the Hebrides off the west coast of Scotland. Fifteen miles to the north lies the island of Mull; the eastern and southern horizons are bounded by the islands of Jura and Islay; and to the south west, just visible from a high point on a clear day, is the coast of Donegal in Ireland. To the west lies the Atlantic, with only the Du Hirteach lighthouse standing between Colonsay and Canada. Together with its semi-detatched neighbour Oransay, it forms an island group roughly ten miles long and two miles wide.

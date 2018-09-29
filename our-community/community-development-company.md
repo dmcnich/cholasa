@@ -1,5 +1,6 @@
 ---
 title: Colonsay Community Development Company
+category: Our Community
 ---
 
 ## Overview

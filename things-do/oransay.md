@@ -1,5 +1,6 @@
 ---
 title: Oransay
+category: Things To Do
 ---
 
 Oransay is the smaller tidal island to the south of Colonsay. It houses the Oransay Priory and is an important habitat for choughs, corncrakes and other wildlife.

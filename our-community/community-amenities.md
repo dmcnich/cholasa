@@ -1,5 +1,6 @@
 ---
 title: Community Amenities
+category: Our Community
 ---
 
 ## Village Hall

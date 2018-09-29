@@ -1,5 +1,6 @@
 ---
 title: Colonsay House Gardens
+category: Things To Do
 ---
 
 Colonsay House Gardens are considered to have one of the finest rhododendron collections in Scotland.  The private inner gardens and Cafe are open to the public on Wednesdays and Fridays.

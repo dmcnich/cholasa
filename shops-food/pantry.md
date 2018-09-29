@@ -1,5 +1,6 @@
 ---
 title: The Pantry
+category: Shops & Food
 ---
 
 We are a family run Business that has been in operation since 1988.  For up-to-date information please visit our website, <a href="http://www.thecolonsaypantry.co.uk">www.thecolonsaypantry.co.uk</a>

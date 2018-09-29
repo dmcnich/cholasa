@@ -1,5 +1,6 @@
 ---
 title: Weather, Tides & Travel
+category: Weather, Tides & Travel
 ---
 
 Caledonian MacBrayne summer and winter timetables are available at the bottom of this page.

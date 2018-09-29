@@ -1,5 +1,6 @@
 ---
 title: Wildlife Watching
+category: Things To Do
 ---
 
 For its size, Colonsay and Oransay provides an enormous variety of natural habitats. They include both ancient and cultivated woodland, moorland and peat bogs, cultivated farmland, meadows and rough pastures, the machair or raised beaches and tidal flats. The shoreline is also very varied with many sandy beaches as well as rocky shoreline and high cliffs. There are also numerous offshore reefs and islands.

@@ -1,5 +1,6 @@
 ---
 title: MacPhie Bagging
+category: Things To Do
 ---
 
 A "MacPhie" is defined as an eminence in excess of 300ft in height, and is Colonsay's equivalent to a Munro, only smaller. The aim is to climb all the peaks on Colonsay and Oransay that exceed 300ft (91.46m), in the course of one connected walk. The journey has to start and finish with any point below High Water mark, and the "MacPhies" can be tackled in any order. There are 22 peaks in the Official List, and the distance is about 20 miles.

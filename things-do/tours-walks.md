@@ -1,5 +1,6 @@
 ---
 title: Tours & Walks
+category: Things To Do
 ---
 
 Below you'll find a number of options for guided walks and tours around Colonsay and Oransay.
