@@ -1,0 +1,45 @@
+<section id="block-views-latest-news-block" class="block block-views last even clearfix">
+
+
+      
+  <div class="fullwidth newscarousel">
+<div class="view view-latest-news view-id-latest_news view-display-id-block view-dom-id-bcb0317e3bc18a9cd78413e1e20b0ff4">
+            <div class="view-header">
+      <h2>Latest News</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+      
+<div id="views-bootstrap-carousel-2" class="views-bootstrap-carousel-plugin-style carousel slide"  data-ride="carousel">
+  
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    {% for post in site.posts reversed %}
+      <div class="item {% if post == site.posts.last %}active{% endif %}">     
+  <div class="views-field views-field-views-conditional">        <span class="field-content"><div class="row">
+<div class="col-sm-12"><strong> {{ post.date | date_to_long_string }}- {{ post.title }}</strong>
+<p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm"><span><b> {{ post.time }} {{ post.place }}.</b></span></p>
+<p style="margin-top:0cm; margin-right:0cm; margin-bottom:8.0pt; margin-left:0cm">{{ post.content }}</p>
+</div>
+</div></span>  </div>      </div>
+ 
+      {% endfor %}
+    </div>
+      <!-- Carousel navigation -->
+    <a class="carousel-control left" href="#views-bootstrap-carousel-2" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="carousel-control right" href="#views-bootstrap-carousel-2" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
+    </div>
+  
+  
+  
+  
+</div>
+</div>
+
+</section>
