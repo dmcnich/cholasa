@@ -9,5 +9,8 @@ fields:
 - type: text
   name: category
   label: Navigation Menu Heading
+- type: text
+  label: Old address
+  name: redirect_from
 pages:
 - visiting-family.md
