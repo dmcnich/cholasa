@@ -5,8 +5,7 @@ category: Things To Do
 
 “Golf as it was first played”.
 The Colonsay Golf Cure for world-weariness:
-<blockquote><div class="blueblock"><em>Hebridean coastal majesty, for the eyes<br />Waves, the skylark and the lapwing, for the ears<br />Cool, clear water from the Cold Well Burn, for the palate<br />The sea in the westerly breeze, for the nose<br />And the grip of a hefty driver, for the hands.</em></div>
-</blockquote>
+>Hebridean coastal majesty, for the eyes<br />Waves, the skylark and the lapwing, for the ears<br />Cool, clear water from the Cold Well Burn, for the palate<br />The sea in the westerly breeze, for the nose<br />And the grip of a hefty driver, for the hands.
 
 ## Location
 
@@ -16,8 +15,7 @@ The 18-hole course is situated on indigenous machair, shortish grass growing in 
 
 To help you to visualise the course, think about the Masters course at Augusta, where every blade of grass appears to be meticulously manicured; then, picture the polar opposite!  Colonsay’s unique course is completely natural, having been designed by the Supreme Architect of Golf.  The greens are mown and rolled during the season by local golfers, with some help from the sheep and some hindrance from the rabbits.  In the winter, they are joined by the cattle of nearby Machrins Farm.  As a consequence, you may have the unusual task of having to clear some livestock from your line of fire before playing your shot.  Fear not, though: local rules allow preferred lies on all fairways and a free drop for balls disappearing into rabbit-holes or taken by the ravens.  More good news: there are no bunkers!  In keeping with the “primeval golf” theme, however, you will come across the occasional sheep-scrape in the sandy ground, which some believe to be the origin of the modern bunker.  At all times, if irked by the ruggedness of the course, you can find comfort in remembering that you’ll not find a lower green-fee anywhere.  You could also ponder the following verse, seen on a plaque on a memorial bench at Glencruitten Golf Course, in Oban:
 
-<blockquote><div class="blueblock"><em>“Getting somewhat crabbit?<br />Scoring over par?<br />Have a look around you:<br />See how lucky you are!”</em></div>
-</blockquote>
+>“Getting somewhat crabbit?<br />Scoring over par?<br />Have a look around you:<br />See how lucky you are!”
 
 ## History
 

@@ -25,4 +25,4 @@ Sunday service delivered by Myrtle Gillies.
 
 A celebration of local food and drink with tastings, workshops, kids activities and crafts.
 
-For more details please visit <a href="http://www.colonsayevents.co.uk/">http://www.colonsayevents.co.uk/</a>
+For more details please visit [http://www.colonsayevents.co.uk][]

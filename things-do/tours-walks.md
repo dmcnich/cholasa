@@ -7,7 +7,7 @@ Below you'll find a number of options for guided walks and tours around Colonsay
 
 ## Peat and Heather
 
-The guys and gals over at peatandheather.co.uk have compiled <a href="http://peatandheather.co.uk/colonsay.shtm">several detailed walks on Colonsay and Oransay</a>. Each walk has an OS map, together with routes, way points, photos and points of interest. Well worth checking out.
+The guys and gals over at peatandheather.co.uk have compiled [several detailed walks on Colonsay and Oransay](http://peatandheather.co.uk/colonsay.shtm). Each walk has an OS map, together with routes, way points, photos and points of interest. Well worth checking out.
 
 ## RSPB
 
@@ -31,13 +31,13 @@ Note: the first persons to book for a given day and time will choose the Option 
 
 There is no charge for children up to 16 years, but anyone under about 12 years might find it a bit boring.
 
-Payment by cheque or credit card is very acceptable. Telephone 01951 200320 to book or <a href="mailto:byrne@colonsay.org.uk">byrne@colonsay.org.uk</a>
+Payment by cheque or credit card is very acceptable. Telephone 01951 200320 to book or [byrne@colonsay.org.uk][]
 
 ## Finding your Feet: *by arrangement*
 
 Kevin Byrne can offer you a guided tour of Colonsay in your own vehicle, taking about an hour and a half.  Although restricted to the road system it is sufficient to give you a broad sweep of the island's history and topography.  The ancient geological background, the effect of the last Ice Age and the arrival of Mesolithic hunter-gatherers lead on to an outline of events from the Bronze Age to the present day.  The relevance of Clans Donald and MacPhee, the flourishing of the McNeills and other local families, the Clearances and the purchase of the island by the first Baron Strathcona and Mountroyal. The tour may help you to identify the places you wish to revisit for further investigation, perhaps for especial scenery, historic sites, places of family interest or locations suited to botany, ornithology or photography.  If you have only limited time, this may help you to make the most of it.
 
-Cost is £40.00 per party.  Payment by cheque or credit card is very acceptable. Telephone 01951 200320 to book or <a href="mailto:byrne@colonsay.org.uk">byrne@colonsay.org.uk</a>
+Cost is £40.00 per party.  Payment by cheque or credit card is very acceptable. Telephone 01951 200320 to book or [byrne@colonsay.org.uk][]
 
 ## Explore Balnahard: *by arrangement*
 
@@ -49,7 +49,7 @@ The trip is not intended to be competitive, but participants should be reasonabl
 
 Cost is £15.00 per adult, £10.00 students over 16yrs, no charge under 16 years but there has to be a minimum return of £60.00 to make it viable.
 
-Payment by cheque or credit card is very acceptable. Telephone 01951 200320 or E-mail <a href="mailto:byrne@colonsay.org.uk">byrne@colonsay.org.uk</a>
+Payment by cheque or credit card is very acceptable. Telephone 01951 200320 or E-mail [byrne@colonsay.org.uk][]
 
 ## Beach-cleaning in Company
 

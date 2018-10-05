@@ -15,4 +15,4 @@ The team at Colonsay Brewery have set out to capture the essential elements of t
 
 *"Beauty in a Bottle"*
     
-Find out about the beer, the brewery itself, our awards and more on our <a href="http://www.colonsaybrewery.co.uk/">website</a>.
+Find out about the beer, the brewery itself, our awards and more on our [website](http://www.colonsaybrewery.co.uk/).

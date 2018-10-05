@@ -11,7 +11,7 @@ The caves at the north end of Kiloran Bay are visited quite easily, but the New 
 
 ## Heritage Centre
 
-Visit the temporary heritage centre at Port Mòr. Find out more about the <a href="{{ site.url }}{{ site.baseurl }}/our-community/colonsay-and-oransay-heritage-trust">Colonsay and Oransay Heritage Trust</a>.
+Visit the temporary heritage centre at Port Mòr. Find out more about the [Colonsay and Oransay Heritage Trust]({{ site.url }}{{ site.baseurl }}/our-community/colonsay-and-oransay-heritage-trust).
 
 ## Star Gazing
 
@@ -19,7 +19,7 @@ With our low levels of light polution, there are many opportunities to enjoy the
 
 ## Antiquities and Social History
 
-Almost any walk or expedition is enhanced by an objective. On your rambles you will find all sorts of sites of interest, everything from hut-circles to bait-holes. Many of these sites have never been recorded, but all the monuments in Colonsay and Oransay are listed and described in the RCAHM booklet available at the Bookshop (£9.95); there is also a <a href="https://canmore.org.uk/search/site?SIMPLE_KEYWORD=colonsay">website</a> which will prove worthwhile but it may be enough to select sites from the Ordnance Survey map.
+Almost any walk or expedition is enhanced by an objective. On your rambles you will find all sorts of sites of interest, everything from hut-circles to bait-holes. Many of these sites have never been recorded, but all the monuments in Colonsay and Oransay are listed and described in the RCAHM booklet available at the Bookshop (£9.95); there is also a [website](https://canmore.org.uk/search/site?SIMPLE_KEYWORD=colonsay) which will prove worthwhile but it may be enough to select sites from the Ordnance Survey map.
 
 ## Make a Film
 
@@ -27,15 +27,11 @@ You could make a fim, and post it on Youtube! There are half-a-dozen examples al
 
 Here is an example, by Sandra Cairney, who visited in May 2018
 
-<div class="media-youtube-video media-element file-default media-youtube-1">
-  <iframe class="media-youtube-player" width="540" height="390" title="Colonsay 25-27 May 2018" src="https://www.youtube.com/embed/2UwbktBBEaI?wmode=opaque&controls=&rel=0" name="Colonsay 25-27 May 2018" frameborder="0" allowfullscreen>Video of Colonsay 25-27 May 2018</iframe>
-</div>
+<iframe class="media-youtube-player" width="540" height="390" title="Colonsay 25-27 May 2018" src="https://www.youtube.com/embed/2UwbktBBEaI?wmode=opaque&controls=&rel=0" name="Colonsay 25-27 May 2018" frameborder="0" allowfullscreen>Video of Colonsay 25-27 May 2018</iframe>
 
 Another remains a bit of a favourite - it is a film by Laura Brown, showing the controlled explosion of a WWII mine in Kiloran Bay - the soundtrack is great, because the Bomb Disposal team allowed the primary schoolchildren to press the button!
 
-<div class="media-youtube-video media-element file-default media-youtube-2">
-  <iframe class="media-youtube-player" width="540" height="390" title="kiloran blast" src="https://www.youtube.com/embed/Xc1I3tGrHVE?wmode=opaque&controls=&rel=0" name="kiloran blast" frameborder="0" allowfullscreen>Video of kiloran blast</iframe>
-</div>
+<iframe class="media-youtube-player" width="540" height="390" title="kiloran blast" src="https://www.youtube.com/embed/Xc1I3tGrHVE?wmode=opaque&controls=&rel=0" name="kiloran blast" frameborder="0" allowfullscreen>Video of kiloran blast</iframe>
 
 ## Miscellaneous
 

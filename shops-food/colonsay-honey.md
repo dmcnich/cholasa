@@ -7,17 +7,15 @@ category: Shops & Food
 
 Isle of Colonsay Wildflower Honey is unique, not only because of its taste, although amongst honeys it is ranked with the best; but also because of its provenance, as bees and quality honey are something of a rarity on small windswept islands.
 
-<blockquote><div class="blueblock"><em>“My next door neighbour brought me a jar of wildflower honey &amp; I've never tasted anything like it. It was 'out of this world'.”</em></div>
-<div class="blueblock" style="text-align:right">Mrs Thomas, Great Harwood, Lancs</div>
-</blockquote>
+>“My next door neighbour brought me a jar of wildflower honey & I've never tasted anything like it. It was 'out of this world'.”
+>*Mrs Thomas, Great Harwood, Lancs*
 
 This honey is not another sweetener to go into the cupboard with supermarket honeys, jams and syrups. It merits a place on the top shelf alongside the Malt Whisky. It is a honey that should be savoured, with the thought that each spoonful is simply the concentration of nectar from thousands of Hebridean wildflowers ..... a gift from the industrious bees.
 
-<blockquote><div class="blueblock"><em>“I had the pleasure of spending a delightful holiday in your part of the world this autumn. On my return home I bought a pot of your Wildflower Honey- how I wished that I had bought a lot more! I have never tasted such delicious honey.”</em></div>
-<div class="blueblock" style="text-align:right">Lesley Lindsay, Astead, Surrey</div>
-</blockquote>
+>“I had the pleasure of spending a delightful holiday in your part of the world this autumn. On my return home I bought a pot of your Wildflower Honey- how I wished that I had bought a lot more! I have never tasted such delicious honey.”
+>*Lesley Lindsay, Astead, Surrey*
 
-We also offer <a href="{{ site.url }}{{ site.baseurl }}/things-do/beekeeping-courses">Beekeeping Courses</a> for both beginners and intermediate.
+We also offer [Beekeeping Courses]({{ site.url }}{{ site.baseurl }}/things-do/beekeeping-courses) for both beginners and intermediate.
 
 ## What gives Isle of Colonsay Wildflower Honey it's special flavour?
 
@@ -27,9 +25,8 @@ Industrial farming has laid waste the natural bee forage of most of Britain. Hed
 
 The important nectar flows that make the bulk of the honey are sycamore and bluebell in the Spring, hawthorne, bramble and clover in the summer months and then the bell and ling heathers of the autumn. But it is the fragrant nectars of the numerous wildflowers that gives Isle of Colonsay Wildflower Honey it's unique and special flavour. The strong aromatic oils of the wild thyme, growing on the sandy machair, are just one example.
 
-<blockquote><div class="blueblock"><em>“We have just finished a pot of your bees ' Wildflower Honey', given to us by a friend who visited Colonsay in the Autumn. I'd like to say it was one of the best tasting honeys we have eaten and we've had them from all over France and Scotland.”</em></div>
-<div class="blueblock" style="text-align:right">Willamina Crosthwaite, Shropshire</div>
-</blockquote>
+>“We have just finished a pot of your bees ' Wildflower Honey', given to us by a friend who visited Colonsay in the Autumn. I'd like to say it was one of the best tasting honeys we have eaten and we've had them from all over France and Scotland.”
+>*Willamina Crosthwaite, Shropshire*
 
 The colour and taste of Colonsay honey will vary and depend on the season and the weather when the different plants are flowering and so which honeys are present in the combs when extracted. The heathers normally make up 60-70%. Honey is extracted and filtered with minimum heat to preserve the essential oils and their unique flavours. I try to ensure that the texture is consistent - softset and smooth, without granulation.
 
@@ -53,11 +50,10 @@ For further information contact Andrew Abrahams by
 
 telephone on 01951 200365
 
-or by email at <a href="mailto:colonsay.oysters.honey@dial.pipex.com">colonsay.oysters.honey@dial.pipex.com</a>
+or by email at [colonsay.oysters.honey@dial.pipex.com][]
 
-<blockquote><div class="blueblock"><em>“Some friendly neighbours were on holiday on Colonsay this year, and brought me back a present of a pot of honey - it had a label on the pot and another tied to the neck. It was, I think, the most special honey I have ever tasted.”</em></div>
-<div class="blueblock" style="text-align:right">John F. Barclay, Edinburgh</div>
-</blockquote>
+>“Some friendly neighbours were on holiday on Colonsay this year, and brought me back a present of a pot of honey - it had a label on the pot and another tied to the neck. It was, I think, the most special honey I have ever tasted.”
+>*John F. Barclay, Edinburgh*
 
 ## The bees - some facts and figures
 

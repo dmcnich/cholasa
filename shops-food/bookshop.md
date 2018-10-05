@@ -9,10 +9,10 @@ The island bookshop at Scalasaig carries a large selection of books, specialisin
 
 It is also home to a well-respected publishing company, House of Lochar. The list of over eighty titles includes many classic works, most of which have a special resonance in the West of Scotland.  For online purchases of Colonsay titles or for details of the entire catalogue, please visit the House of Lochar website.
 
-Otherwise, for more information on any title or for a price inclusive of carriage overseas please Email <a href="mailto:byrne@colonsay.org.uk">byrne@colonsay.org.uk</a>
+Otherwise, for more information on any title or for a price inclusive of carriage overseas please Email [byrne@colonsay.org.uk][]
 
 Write to: Colonsay Bookshop, Isle of Colonsay, Argyll, PA61 7YZ
 
 Telephone: 01951 200320 or 200232
 
-<a href="http://www.houseoflochar.com">www.houseoflochar.com</a>
+[www.houseoflochar.com][]

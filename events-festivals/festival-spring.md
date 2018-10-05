@@ -11,4 +11,4 @@ Each year the individual events are varied, with old favourites being run alongs
 
 29th April - 19th May 2019
 
-the programme will be available shortly. For a taste of previous festivals go to <a href="http://www.colonsayspringfest.co.uk">www.colonsayspringfest.co.uk</a>
+the programme will be available shortly. For a taste of previous festivals go to [the springfest website](http://www.colonsayspringfest.co.uk).

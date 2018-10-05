@@ -7,7 +7,7 @@ category: Shops & Food
 
 Keir and Grace welcome you to Colonsay General Store. we have had the pleasure of running the island's only grocery store since April 2012, Keir having worked at the shop for many seasons previously.
 
-The shop has it's own website which can be found at <a href="http://www.colonsayshop.net">www.colonsayshop.net </a>and you can follow us on twitter <a href="https://twitter.com/colonsayshop">@colonsayshop</a>
+The shop has it's own website which can be found at [www.colonsayshop.net][] and you can follow us on twitter [@colonsayshop](https://twitter.com/colonsayshop)
 
 On the site you can place an order for deliverly to your accommodation. Imagine arriving to a cottage full of delicious, fresh produce from the local shop. An online ordering service is in the works but in the meantime a list of stock is provided from which you can build your order. Then it's simply a case of giving us a ring or sending us an e-mail with your requirments.
 
@@ -25,4 +25,4 @@ Sunday*<br />11.30am - 12.30pm
 
 Colonsay General Store<br />Scalasig<br />Isle of Colonsay<br />PA61 7YW
 
-Tel: 01951 200265<br />e-mail:<a href="mailto:info@colonsayshop.net"> </a><a href="http://info@colonsayshop.net">info@colonsayshop.net</a><br />Web: <a href="http://www.colonsayshop.net">www.colonsayshop.net</a>
+Tel: 01951 200265<br />e-mail:[info@colonsayshop.net][]<br />Web: [www.colonsayshop.net][]
