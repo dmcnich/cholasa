@@ -17,8 +17,8 @@ title: Isle of Colonsay
 email: d@mcni.ch
 description: >- # this means to ignore newlines until "baseurl:"
   A beautiful island and a welcoming community on the west coast of Scotland
-baseurl: "/cholasa" # the subpath of your site, e.g. /blog
-url: "https://dmcnich.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dmcnich
 
 # Build settings

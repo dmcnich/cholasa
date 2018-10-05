@@ -1,0 +1,135 @@
+---
+---
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8em;
+    color: #333;
+    margin: 0;
+    padding:0;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight:100;
+    font-size: 10vw;
+    padding: 0;
+    margin: 0 auto;
+    & a {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+header, nav, section, footer {
+    width: 100%;
+}
+
+p, div, ul, h2 {
+    max-width: 70rem;
+    margin: 1em auto;
+}
+
+header {
+    padding-top: 2em;
+    text-align: center;
+    color: #fff;
+    background: #abca93;
+        & p {
+        font-size: 1.2em;
+        font-weight: 100;
+        font-style: italic;
+        margin: 1em auto;
+        padding: 1em;
+    }
+    & a {color: inherit;
+    }
+}
+
+#skip-link {
+    position:absolute;
+    top:-200rem;
+}
+
+nav {
+    font-size: 0.8em;
+    color: #608641;
+    margin: 2em auto;
+    & a {
+        color: inherit;
+    }
+    & ul {
+        list-style: none;
+        padding: 0;
+        & li {
+            display: inline-block;
+            margin: 0 1em;
+            & ul {
+                margin: 0 0 1em 0;
+                display: none;
+                position: absolute;
+                background: #fff;
+                & li {
+                    display: block;
+                }
+            }
+            &:hover ul {
+                display: block;
+            }
+        }
+    }
+}
+
+footer {
+    background: #abca93;
+    color: #fff;
+    & div {
+        width: 33vw;
+        max-width: 23rem;
+        text-align: center;
+        float: left;
+    }
+    & > p {
+        max-width: 70rem;
+        float: left;
+    }
+}
+
+#images {
+    overflow: hidden;
+    width: 100%;
+    max-width: 70rem;
+    max-height: 50vh;
+    & div {
+        width: 600%;
+        -webkit-animation: slide 18s ease infinite;
+    }
+    & img {
+        float: left;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0;}
+  30% {margin-left: -100%;}
+  50% {margin-left: -100%;}
+  60% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  80% {margin-left: -300%;}
+  90% {margin-left: -300%;}
+}
+
+img {
+    max-width: 40%;
+    float: left;
+    margin-right: 4rem;
+}
