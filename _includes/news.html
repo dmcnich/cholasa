@@ -1,10 +1,12 @@
 <section id="news">
     <h2>Latest News</h2>
-    {% for post in site.posts reversed %}
-        <div class="item {% if post == site.posts.last %}active{% endif %}">     
-            <strong> {{ post.date | date_to_long_string }}- {{ post.title }}</strong>
-            <p>{{ post.time }} {{ post.place }}</p>
-            <p>{{ post.content }}</p>
-        </div>
-    {% endfor %}
+        <div>
+        {% for post in site.posts reversed %}
+            <div class="item {% if post == site.posts.last %}active{% endif %}">     
+                <strong> {{ post.date | date_to_long_string }}- {{ post.title }}</strong>
+                <p>{{ post.time }} {{ post.place }}</p>
+                <p>{{ post.content }}</p>
+            </div>
+        {% endfor %}
+    </div>
 </section>
