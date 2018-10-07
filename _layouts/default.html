@@ -50,7 +50,10 @@
 
     <section>
         <h2 id="main-content">{{ page.title }}</h2>
-            {{ content | markdownify }}
+        {% if page.title %}
+        <hr />
+        {% endif %}
+        {{ content | markdownify }}
     </section>
 
     <section id="news">
@@ -59,14 +62,14 @@
             <div>
             {% for post in site.posts reversed %}
                 <div>     
-                    <strong> {{ post.date | date_to_long_string }}- {{ post.title }}</strong>
-                    <p>{{ post.time }} {{ post.place }}</p>
+                    <strong> {{ post.date | date_to_long_string }} - {{ post.time }}</strong>
+                    <p>{{ post.title }} {{ post.place }}</p>
                     {{ post.content }}
                 </div>
             {% endfor %}
                 <div>     
-                    <strong> {{ site.posts.last.date | date_to_long_string }}- {{ site.posts.last.title }}</strong>
-                    <p>{{ site.posts.last.time }} {{ site.posts.last.place }}</p>
+                    <strong> {{ site.posts.last.date | date_to_long_string }} - {{ site.posts.last.time }}</strong>
+                    <p>{{ site.posts.last.title }} {{ site.posts.last.place }}</p>
                     {{ site.posts.last.content }}
                 </div>
         </div>
@@ -82,9 +85,9 @@
             <div>
                 <p>Find us on:</p>
                 <ul>
-                    <li id="tripadvisor"><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor &raquo;</a></li>
-                    <li id="facebook"><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook &raquo;</a></li>
-                    <li id="youtube"><a href="https://www.youtube.com/results?search_query=colonsay">Youtube &raquo;</a></li>
+                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor &raquo;</a></li>
+                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook &raquo;</a></li>
+                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube &raquo;</a></li>
                 </ul>
             </div> 
             <div>
