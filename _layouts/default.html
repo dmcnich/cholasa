@@ -1,6 +1,6 @@
 ---
 ---
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/style.css" />
@@ -19,18 +19,80 @@
         <p><a href="{{ site.url }}{{ site.baseurl }}/" title="Home">{{ site.description }}</a></p>
     </header>
 
-{% include nav.html %}
+    <nav role="navigation">
+        <ul>
+            <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl}}/accommodation.html">Accommodation</a></li>  
+            {% assign pages = site.pages | group_by: 'category' | sort: 'name' %}
+            {% for cat in pages %}
+                {% if cat.name != '' %}
+            <li>{{ cat.name }}
+                <ul>
+                  {% assign items = cat.items %}
+                  {%- for item in items -%}
+                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                  {% endfor %}
+                </ul>
+            </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
 
-{% include banner.html %}
+    <div id="images">
+        <div class='wrapper'>
+                {% for image in site.collections.first.files %}
+            <img src="{{ image.path | remove: '_' | absolute_url }}" /> 
+                {% endfor %}
+            <img src="{{ site.collections.first.files.first.path | remove: '_' | absolute_url }}" />
+        </div>
+    </div>
 
-    <section id="main-content">
-        <h2 class="page-header">{{ page.title }}</h2>
+    <section>
+        <h2 id="main-content">{{ page.title }}</h2>
             {{ content | markdownify }}
     </section>
-    
-{% include news.html %}
-    
-{% include footer.html %}
+
+    <section id="news">
+        <div>
+        <h2>Latest News</h2>
+            <div>
+            {% for post in site.posts reversed %}
+                <div>     
+                    <strong> {{ post.date | date_to_long_string }}- {{ post.title }}</strong>
+                    <p>{{ post.time }} {{ post.place }}</p>
+                    {{ post.content }}
+                </div>
+            {% endfor %}
+                <div>     
+                    <strong> {{ site.posts.last.date | date_to_long_string }}- {{ site.posts.last.title }}</strong>
+                    <p>{{ site.posts.last.time }} {{ site.posts.last.place }}</p>
+                    {{ site.posts.last.content }}
+                </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <div>
+                <p><a href="http://corncrake.org.uk"><img src="{{ site.url }}{{ site.baseurl }}/images/corncrake.png" /></a></p>
+                <p><a href="https://www.ruralnetwork.scot/funding/leader"><img src="{{ site.url }}{{ site.baseurl }}/images/leader.png" /></a> <a href="http://www.hie.co.uk"><img src="{{ site.url }}{{ site.baseurl }}/images/hie.png" /></a></p>
+            </div> 
+            <div>
+                <p>Find us on:</p>
+                <ul>
+                    <li id="tripadvisor"><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor &raquo;</a></li>
+                    <li id="facebook"><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook &raquo;</a></li>
+                    <li id="youtube"><a href="https://www.youtube.com/results?search_query=colonsay">Youtube &raquo;</a></li>
+                </ul>
+            </div> 
+            <div>
+                <p>Banner photos &copy; Ruari Cumming ARPS:<br /><a href="http://www.hebridean-island-images.com">www.Hebridean-Island-Images.com</a></p>
+            </div>
+        </div>
+        <p>&copy; 2018 Colonsay Community Development Company - <a href="{{ site.url }}{{ site.baseurl }}/island/about-us">Contact Us</a></p>
+    </footer>
 
 </body>
 </html>

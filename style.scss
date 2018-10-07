@@ -1,5 +1,9 @@
 ---
 ---
+{% assign imagenumber = site.collections.first.files | size %}
+{% assign newsnumber = site.posts | size %}
+{% assign imageslides = imagenumber | plus:1 %}
+{% assign newsslides = newsnumber | plus:1 %}
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato');
 
@@ -20,6 +24,10 @@ h1 {
     margin: 0 auto;
 }
 
+h3 {
+    clear: both;
+}
+
 a {
     text-decoration: none;
     color: #de873a;
@@ -36,9 +44,31 @@ header, nav, section, footer {
     width: 100%;
 }
 
-p, div, ul, h2 {
+p, div, ul, h2, h3 {
     max-width: 70rem;
     margin: 1em auto;
+}
+
+section img {
+    max-width: 40%;
+    float: left;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    &:nth-of-type(2n) {
+        float:right;
+    }
+}
+
+blockquote {
+    background-color: #a8d5e2;
+    &:before { content: ""; 
+        position: absolute; 
+        background: #a8d5e2; 
+        top: 0; 
+        bottom: 0; 
+        width: 9999em; 
+        right: 99.9%; 
+    }
 }
 
 header {
@@ -62,11 +92,6 @@ header {
             color:inherit;
         }
     }
-}
-
-#skip-link {
-    position:absolute;
-    top:-200rem;
 }
 
 nav {
@@ -124,7 +149,6 @@ nav {
 footer {
     background: #abca93;
     color: #fff;
-    min-height: 25rem;
     & div {
         max-width:70rem;
         margin: 0 auto;
@@ -140,13 +164,22 @@ footer {
     }
     & > p {
         max-width: 70rem;
-        float: left;
         text-align: center;
-        margin: 2em auto;
+        padding: 2em;
+        margin: 0 auto;
+        clear:both;
     }
     & img {
         margin:0.5em;
     }
+    & ul {
+        list-style-type: none;
+    }
+}
+
+#skip-link {
+    position:absolute;
+    top:-200rem;
 }
 
 #images {
@@ -155,9 +188,9 @@ footer {
     max-width: 70rem;
     margin: 0 auto;
     & div {
-        width: 700vw;
-        max-width: 490rem;
-        -webkit-animation: slide 30s ease infinite;
+        width: {{ imageslides }}*100vw;
+        max-width: {{ imageslides }}*70rem;
+        -webkit-animation: imageslide {{ imagenumber }}*12s ease infinite;
     }
     & img {
         float: left;
@@ -167,48 +200,36 @@ footer {
 }
 
 #news {
-    overflow: hidden;
-    width: 100vw;
-    max-width: 70rem;
-    margin: 0 auto;
+    background-color: #eee;
     & > div {
-        width: 200vw;
-        max-width: 140rem;
-        -webkit-animation: slide 18s ease infinite;
+        overflow: hidden;
+        width: 100vw;
+        max-width: 70rem;
+        margin: 0 auto;
         & > div {
-            float: left;
-            width: 100vw;
-            max-width: 70rem;
+            width: {{ newsslides }}*100vw;
+            max-width: {{ newsslides }}*70rem;
+            -webkit-animation: newsslide {{ newsnumber }}*12s ease infinite;
+            & > div {
+                float: left;
+                width: 100vw;
+                max-width: 70rem;
+            }
         }
     }
 }
 
-@-webkit-keyframes slide {
-    8% {margin-left: 0;}
-    16% {margin-left: -100%;}
-    24% {margin-left: -100%;}
-    32% {margin-left: -200%;}
-    40% {margin-left: -200%;}
-    48% {margin-left: -300%;}
-    56% {margin-left: -300%;}
-    64% {margin-left: -400%;}
-    72% {margin-left: -400%;}
-    80% {margin-left: -500%;}
-    88% {margin-left: -500%;}
-    96% {margin-left: -600%;}
+@-webkit-keyframes newsslide {
+{% for i in (1..newsnumber) %}
+    {{ i | minus:0.5 | times: 100 | divided_by:newsnumber }}% {margin-left:-{{ i | minus:1 | times: 100 }}%;}
+    {{ i | times: 100 | divided_by:newsnumber }}% {margin-left: -{{ i | times: 100}}%;}
+{% endfor %}
 }
-
-section img {
-    max-width: 40%;
-    float: left;
-    margin-right: 4rem;
-    &:nth-of-type(2n) {
-        float:right;
-    }
-}
-
-footer ul {
-    list-style-type: none;
+@-webkit-keyframes imageslide {
+{% for i in (1..imagenumber) %}
+    {{ i | minus:0.5 | times: 100 | divided_by:imagenumber }}% {margin-left:-{{ i | minus:1 | times: 100 }}%;}
+    {{ i | times: 100 | divided_by:imagenumber }}% {margin-left: -{{ i | times: 100}}%;}
+{% endfor %}
 }
 
 #facebook:before {
