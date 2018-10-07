@@ -1,5 +1,4 @@
 ---
-title:
 ---
 
 >![Map of Colonsay](images/colonsay.png)

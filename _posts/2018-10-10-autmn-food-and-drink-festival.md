@@ -1,6 +1,6 @@
 ---
 title: The Autumn Food and Drink Festival
-date: 2018-10-10
+date: 2018-10-10 00:00:00 Z
 time: continuing to the 24th
 ---
 

@@ -1,5 +1,6 @@
 ---
 ---
+
 {% assign imagenumber = site.collections.first.files | size %}
 {% assign newsnumber = site.posts | size %}
 {% assign imageslides = imagenumber | plus:1 %}
