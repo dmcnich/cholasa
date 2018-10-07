@@ -31,7 +31,8 @@ We hold in trust many donated historical items, books and photograph collections
 
 Old Generator Shed, Port Mor
 
-[![The old heritage centre]({{ site.url }}{{ site.baseurl }}/images/COHT/old%20heritage.jpg)
+
+![The old heritage centre]({{ site.url }}{{ site.baseurl }}/images/COHT/old%20heritage.jpg)
 
 In 2012 the Trust was offered, courtesy of Colonsay Estate, the use of a redundant Generator Shed at Port Mor on the west side of the island to house exhibitions and display materials until such time as a more permanent purpose-built centre could be achieved, which is the long term goal of the Trust.
 
@@ -60,4 +61,4 @@ The Heritage Trust is appreciative of the strong support we have received from b
 
 Further information about the Trust and Membership can be found on our website, currently under construction.
 
-[www.colonsaycaptured.com][]
+<http://www.colonsaycaptured.com>
