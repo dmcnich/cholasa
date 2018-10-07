@@ -7,7 +7,7 @@ category: Community
 
 We are happy to say that, currently, all crofts are tenanted. Although there are no community crofts available at present, please feel free to send us an email or give us a call to register interest or to request further information. We can then keep you updated and contact you should a croft become available.
 
-Tel: 01951 200244  or email: [contactccdc1@gmail.com][]
+Tel: 01951 200244  or email: <contactccdc1@gmail.com>
 
 ## Update March 2013
 
@@ -17,7 +17,7 @@ Colonsay Community Development Company have a croft to let on the island of Colo
 
 If you are interested in this opportunity contact Donald MacNeill for more information. Initial expressions of interest should be received by 19th April 2013.
 
-Tel: 01951200244 or e-mail: [colonsayldo@btinternet.com][]
+Tel: 01951200244 or e-mail: <colonsayldo@btinternet.com>
 
 ## Colonsay Croft Project - Update 2.2.2012
 
@@ -47,13 +47,13 @@ Potential projects might be eligible for grant aid for the construction of build
 
 **Who do we want?**
 
-We want resourceful, independent well-motivated people. You will be expected to submit a business plan, and a transparent allocation policy will be applied to select applicants. We would like families but rule out no one. New businesses may be eligible for assistance from Argyll and Islands Enterprise [www.hie.co.uk][]
+We want resourceful, independent well-motivated people. You will be expected to submit a business plan, and a transparent allocation policy will be applied to select applicants. We would like families but rule out no one. New businesses may be eligible for assistance from Argyll and Islands Enterprise <http://www.hie.co.uk>
 
 **What should you do?**
 
 A comprehensive information pack is being developed and should be available by the beginning of April.
 
-In the meantime, for further informal information contact me initially by e-mail at [colonsay.croft@btinternet.com][] and I will arrange a time for you to phone me.
+In the meantime, for further informal information contact me initially by e-mail at <colonsay.croft@btinternet.com> and I will arrange a time for you to phone me.
 
 Good luck -
 

@@ -7,7 +7,7 @@ The Community Council usually meets each month in the Hall. Meeting dates are po
 
 Sheena Nisbet (Convenor), David Hobhouse, Alex Howard, Kevin Byrne, Willie Joll, Keith Rutherford and Carrie Seymour (Treasurer).
 
-We can be contacted at [colonsaycc@gmail.com][] Our own website is at [www.colonsaycc.org.uk][]  The Community Council administers a Common Good Fund, and details will be found on our website.
+We can be contacted at <colonsaycc@gmail.com> Our own website is at <http://www.colonsaycc.org.uk>  The Community Council administers a Common Good Fund, and details will be found on our website.
 
 Colonsay may have up to ten Community Councillors and by-elections are held twice each year to fill any vacancies.  Notice of by-elections are posted in the Service Point and shop notice boards.
 

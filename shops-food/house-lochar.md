@@ -9,6 +9,6 @@ We are very much a local business and your support is very much appreciated. Whe
 
 Please note that all books in our catalogue with a "Buy Now" button are available for immediate despatch, normally postage free within the UK. In a few cases, a contribution towards postage is required and clearly indicated. Your transaction is completely secure and operated by PayPal (credit and debit cards are accepted); no third party can see your card details, not even us!
 
-For all purchases, please refer to our main catalogue [houseoflochar.com][] which includes Airmail postage options for all destinations.
+For all purchases, please refer to our main catalogue <http://houseoflochar.com> which includes Airmail postage options for all destinations.
 
 If you are in Colonsay, please visit our [Bookshop]({{ site.url }}{{ site.baseurl }}/shops-food/bookshop), which carries all our own titles in addition to a very wide range of other books - it has an excellent reputation and owes its success to the support of its loyal customers - thank you!

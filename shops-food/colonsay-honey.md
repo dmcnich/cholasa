@@ -53,7 +53,7 @@ For further information contact Andrew Abrahams by
 
 telephone on 01951 200365
 
-or by email at [colonsay.oysters.honey@dial.pipex.com][]
+or by email at <colonsay.oysters.honey@dial.pipex.com>
 
 >“Some friendly neighbours were on holiday on Colonsay this year, and brought me back a present of a pot of honey - it had a label on the pot and another tied to the neck. It was, I think, the most special honey I have ever tasted.”
 >

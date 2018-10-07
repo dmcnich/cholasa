@@ -3,7 +3,7 @@ title: The Pantry
 category: Shops & Food
 ---
 
-We are a family run Business that has been in operation since 1988.  For up-to-date information please visit our website, [www.thecolonsaypantry.co.uk][]
+We are a family run Business that has been in operation since 1988.  For up-to-date information please visit our website, <http://www.thecolonsaypantry.co.uk>
 
 Located just 200 yards from the pier, with amazing views looking out over the pier and onto the Jura Hills, where you can sit back and relax &amp; enjoy our wide selection of coffees and teas along with one of our amazing home baked cakes!
 
@@ -13,6 +13,6 @@ We have a licence and our stocks include locally produced and award-winning Colo
 
 We have an in-house bakery, and you can pre-order your own freshly-baked bread.  Special dietary needs? Just let us know!
 
-To contact us, simply call:  01951 200325  or Email: [mail@thecolonsaypantry.co.uk][]
+To contact us, simply call:  01951 200325  or Email: <mail@thecolonsaypantry.co.uk>
 
 Debit and Credit cards are joyfully accepted, with no charge (minimum spend of £5.00).
