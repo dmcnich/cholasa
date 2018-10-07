@@ -5,10 +5,12 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
-  path: places
+  path: _places
   label: Accomodation
   create: all
   match: "**/*"
+  templates:
+  - accomodation
 - type: jekyll-posts
   label: News
   create: all
