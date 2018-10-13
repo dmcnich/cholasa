@@ -117,7 +117,7 @@ header {
 nav {
     font-size: 0.8em;
     color: #608641;
-    margin: 0 auto;
+    margin: 1rem auto;
     order: 2;
     & a {
         color: inherit;
@@ -135,13 +135,13 @@ nav {
         margin: 0 auto;
         & li {
             display: inline-block;
-            margin: 0 1em;
+            padding: 0 1em;
             &:hover{
                 color: #333;
                 }
             & ul {
                 color: #608641;
-                margin: 0 0 1em 0;
+                padding: 0 0 1em 0;
                 display: none;
                 position: absolute;
                 background: #fff;
@@ -223,6 +223,7 @@ footer {
     margin: 0 auto;
     order: 3;
     & div {
+        margin: 0;
         width: {{ imageslides }}*100vw;
         max-width: {{ imageslides }}*70rem;
         -webkit-animation: imageslide {{ imagenumber }}*12s ease infinite;
@@ -243,16 +244,16 @@ footer {
     order: 5;
     & > div {
         overflow: hidden;
-        width: 100vw;
+        width: 85vw;
         max-width: 60rem;
         margin: 0 auto;
         & > div {
-            width: {{ newsslides }}*100vw;
+            width: {{ newsslides }}*85vw;
             max-width: {{ newsslides }}*60rem;
             -webkit-animation: newsslide {{ newsnumber }}*12s ease infinite;
             & > div {
                 float: left;
-                width: 100vw;
+                width: 85vw;
                 max-width: 60rem;
             }
         }
@@ -273,7 +274,7 @@ footer {
 }
 
 @media only screen and (max-width: 70em) {
-    nav, #main-content, #news, footer {
+    #main-content, #news, footer {
         padding: 0 1em;
     }
     nav {
