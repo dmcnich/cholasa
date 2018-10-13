@@ -3,6 +3,7 @@ title: No. Eight Glassard
 type: Self Catering
 accomodation: Sleeps 6
 link: https://www.thistleandroseproperty.co.uk
+coord: 56.075739,-6.178413
 ---
 
 No. Eight is a delightful semi-detached property on the unspoilt Isle of Colonsay.

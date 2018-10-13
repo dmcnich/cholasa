@@ -3,6 +3,7 @@ title: Colonsay Island Lodges
 type: Self Catering
 accomodation: Sleep 5 each
 link: http://www.colonsayislandlodges.co.uk
+coord: 56.068885,-6.196640
 ---
 
 Situated next to the award-winning Colonsay Hotel, the self-catering Island Lodges are an ideal base to explore this remote tranquil island.

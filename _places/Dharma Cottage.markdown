@@ -3,6 +3,7 @@ title: Dharma Cottage
 type: Bed & Breakfast
 accomodation: 3 Doubles
 link: 
+coord: 56.079404,-6.228935
 ---
 
 Dharma Cottage is a modern cottage approximately three miles from the ferry port and is situated near the west coast of Colonsay.
