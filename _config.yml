@@ -25,5 +25,5 @@ baseurl: "/cholasa"
 url: https://dmcnich.github.io
 github_username: dmcnich
 markdown: kramdown
-kramdown: 
+kramdown:
   auto_ids: false
