@@ -8,6 +8,13 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato');
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 1.15rem;
@@ -15,10 +22,12 @@ body {
     color: #333;
     margin: 0;
     padding:0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Trajan Pro Sans', 'Alegreya Sans SC', sans-serif;
     font-weight:100;
     font-size: 10vw;
     padding: 0;
@@ -59,7 +68,7 @@ p, div, ul, h2, h3 {
     margin: 1em auto;
 }
 
-section img {
+section p img {
     max-width: 40%;
     float: right;
     margin: 1rem;
@@ -86,6 +95,7 @@ header {
     text-align: center;
     color: #fff;
     background: #abca93;
+    order: 1;
         & p {
         font-size: 1.2em;
         font-weight: 100;
@@ -108,6 +118,7 @@ nav {
     font-size: 0.8em;
     color: #608641;
     margin: 0 auto;
+    order: 2;
     & a {
         color: inherit;
         &:hover {
@@ -158,16 +169,24 @@ footer {
     background: #abca93;
     color: #fff;
     padding-top: 2em;
-    & div {
+    order: 7;
+    & > div {
         max-width:70rem;
         margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
         & div {
-            width: 33%;
+            width: 20rem;
             text-align: center;
-            float: left;
             margin: 0;
             & ul {
                 text-align: left;
+                list-style-type: none;
+                & img {
+                    position: relative;
+                    top: 20px;
+                }
             }
         }
     }
@@ -180,14 +199,6 @@ footer {
     }
     & img {
         margin:0.5em;
-    }
-    & ul {
-        list-style-type: none;
-        padding-left: 4em;
-        & img {
-            position: relative;
-            top: 20px;
-        }
     }
     & a {color: inherit;
         &:hover {
@@ -210,6 +221,7 @@ footer {
     width: 100vw;
     max-width: 70rem;
     margin: 0 auto;
+    order: 3;
     & div {
         width: {{ imageslides }}*100vw;
         max-width: {{ imageslides }}*70rem;
@@ -222,8 +234,13 @@ footer {
     }
 }
 
+#main-content {
+    order: 4;
+}
+
 #news {
     background-color: #eee;
+    order: 5;
     & > div {
         overflow: hidden;
         width: 100vw;
@@ -253,4 +270,27 @@ footer {
     {{ i | minus:0.2 | times: 100 | divided_by:imagenumber }}% {margin-left:-{{ i | minus:1 | times: 100 }}%;}
     {{ i | times: 100 | divided_by:imagenumber }}% {margin-left: -{{ i | times: 100}}%;}
 {% endfor %}
+}
+
+@media only screen and (max-width: 70em) {
+    nav, #main-content, #news, footer {
+        padding: 0 1em;
+    }
+    nav {
+        order: 6;
+        & ul li {
+        display: block;
+        font-weight: 600;
+            & ul {
+                display: block;
+                position: inherit;
+                & li {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    section p img {
+        max-width: 100%;
+    }
 }

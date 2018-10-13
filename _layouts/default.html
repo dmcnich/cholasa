@@ -9,6 +9,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/images/colonsay.png" />
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+    <script src="//use.typekit.net/xzl7twq.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <title>{{ page.title }} | Isle Of Colonsay</title>
 </head>
 <body>
@@ -40,17 +42,17 @@
         </ul>
     </nav>
 
-    <div id="images">
+    <section id="images">
         <div class='wrapper'>
                 {% for image in site.collections.first.files %}
             <img src="{{ image.path | remove: '_' | absolute_url }}" /> 
                 {% endfor %}
             <img src="{{ site.collections.first.files.first.path | remove: '_' | absolute_url }}" />
         </div>
-    </div>
+    </section>
 
-    <section>
-        <h2 id="main-content">{{ page.title }}</h2>
+    <section id="main-content">
+        <h2>{{ page.title }}</h2>
         {% if page.title %}
         <hr />
         {% endif %}
@@ -86,9 +88,9 @@
             <div>
                 <p>Find us on:</p>
                 <ul>
-                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor &raquo;</a></li>
-                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook &raquo;</a></li>
-                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube &raquo;</a></li>
+                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor</a></li>
+                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook</a></li>
+                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube</a></li>
                 </ul>
             </div> 
             <div>
