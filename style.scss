@@ -176,6 +176,7 @@ footer {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
+        align-items: center;
         & div {
             width: 20rem;
             text-align: center;
@@ -258,6 +259,11 @@ footer {
             }
         }
     }
+}
+
+iframe {
+    display: block;
+    margin: 1em auto;
 }
 
 @-webkit-keyframes newsslide {
