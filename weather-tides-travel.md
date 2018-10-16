@@ -10,9 +10,7 @@ For up to date information on delays or cancelations please visit: <a href="htt
     
 ## Weather
 
-<iframe style="display: block;" src="https://cdnres.willyweather.co.uk/widget/loadView.html?id=2759" width="100%" height="520" frameborder="0"  scrolling="no"></iframe>
-
-[Today's weather in Colonsay--Eilean Olmsa](https://www.willyweather.co.uk/st/argyll-and-bute/colonsay----eilean-olmsa.html)
+<script type='text/javascript' src='https://darksky.net/widget/default/56.081,-6.2119/uk12/en.js?width=100%&height=350&title=Isle of Colonsay&textColor=333333&bgColor=FFFFFF&transparency=false&skyColor=333333&fontFamily=Default&customFont=&units=uk&htColor=333333&ltColor=C7C7C7&displaySum=yes&displayHeader=yes'></script>
 
 ## Wind
 
