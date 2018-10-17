@@ -4,11 +4,11 @@
 <!DOCTYPE html> 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/images/colonsay.png" />
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/colonsay.png" />
+    <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
     
     <script src="//use.typekit.net/xzl7twq.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
@@ -26,13 +26,13 @@
         <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
     </div>
     <header id="navbar" role="banner" class="container header">
-        <h1><a href="{{ site.url }}{{ site.baseurl }}/" title="Home">{{ site.title }}</a></h1>
-        <p><a href="{{ site.url }}{{ site.baseurl }}/" title="Home">{{ site.description }}</a></p>
+        <h1><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></h1>
+        <p><a href="{{ site.baseurl }}/" title="Home">{{ site.description }}</a></p>
     </header>
 
     <nav role="navigation">
         <ul>
-            <li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="{{ site.url }}{{ site.baseurl}}/accommodation.html">Accommodation</a></li>  
             {% assign pages = site.pages | group_by: 'category' | sort: 'name' %}
             {% for cat in pages %}
@@ -41,7 +41,7 @@
                 <ul>
                   {% assign items = cat.items %}
                   {%- for item in items -%}
-                    <li><a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
                   {% endfor %}
                 </ul>
             </li>
@@ -94,22 +94,22 @@
     <footer>
         <div>
             <div>
-                <p><a href="http://corncrake.org.uk"><img src="{{ site.url }}{{ site.baseurl }}/images/corncrake.png" /></a></p>
-                <p><a href="https://www.ruralnetwork.scot/funding/leader"><img src="{{ site.url }}{{ site.baseurl }}/images/leader.png" /></a> <a href="http://www.hie.co.uk"><img src="{{ site.url }}{{ site.baseurl }}/images/hie.png" /></a></p>
+                <p><a href="http://corncrake.org.uk"><img src="{{ site.baseurl }}/images/corncrake.png" /></a></p>
+                <p><a href="https://www.ruralnetwork.scot/funding/leader"><img src="{{ site.baseurl }}/images/leader.png" /></a> <a href="http://www.hie.co.uk"><img src="{{ site.baseurl }}/images/hie.png" /></a></p>
             </div> 
             <div>
                 <p>Find us on:</p>
                 <ul>
-                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor</a></li>
-                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook</a></li>
-                    <li><img src="{{ site.url }}{{ site.baseurl }}/images/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube</a></li>
+                    <li><img src="{{ site.baseurl }}/images/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor</a></li>
+                    <li><img src="{{ site.baseurl }}/images/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook</a></li>
+                    <li><img src="{{ site.baseurl }}/images/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube</a></li>
                 </ul>
             </div> 
             <div>
                 <p>Banner photos &copy; Ruari Cumming ARPS:<br /><a href="http://www.hebridean-island-images.com">www.Hebridean-Island-Images.com</a></p>
             </div>
         </div>
-        <p>&copy; 2018 Colonsay Community Development Company - <a href="{{ site.url }}{{ site.baseurl }}/island/about-us">Contact Us</a></p>
+        <p>&copy; 2018 Colonsay Community Development Company - <a href="{{ site.baseurl }}/island/about-us">Contact Us</a></p>
     </footer>
 
     {% if page.title == "Accomodation" %}

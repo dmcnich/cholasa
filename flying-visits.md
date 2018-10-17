@@ -12,17 +12,17 @@ In addition to our excellent <a href="/getting-colonsay">ferry service</a> Colon
 
 ## Ideas for a short visit:
 
-- Come for a round of <a href="{{ site.url }}{{ site.baseurl }}/things-do/golf">golf</a>, 18 holes, 4470 yards, 200-year old links course
-- Come for the<a href="{{ site.url }}{{ site.baseurl }}/things-do/fishing"> fly-fishing</a>, brown trout, open March 17th - September 30th
-- Visit the <a href="{{ site.url }}{{ site.baseurl }}/shops-food/colonsay-brewery">Brewery</a>, the <a href="{{ site.url }}{{ site.baseurl }}/shops-food/bookshop">Bookshop</a>, <a href="{{ site.url }}{{ site.baseurl }}/shops-food/pantry">Pantry</a> and <a href="{{ site.url }}{{ site.baseurl }}/shops-food/colonsay-general-store">Shop</a>, sample the Oysters and <a href="{{ site.url }}{{ site.baseurl }}/shops-food/colonsay-honey">Honey</a>
-- Come to enjoy the birds, <a href="/node/64">flora</a> and <a href="{{ site.url }}{{ site.baseurl }}/things-do/tours-walks">incredible scenery</a>
-- Come "<a href="{{ site.url }}{{ site.baseurl }}/things-do/macphie-bagging">MacPhie-bagging</a>" (more-manageable than Munros)
+- Come for a round of <a href="{{ site.baseurl }}/things-do/golf">golf</a>, 18 holes, 4470 yards, 200-year old links course
+- Come for the<a href="{{ site.baseurl }}/things-do/fishing"> fly-fishing</a>, brown trout, open March 17th - September 30th
+- Visit the <a href="{{ site.baseurl }}/shops-food/colonsay-brewery">Brewery</a>, the <a href="{{ site.baseurl }}/shops-food/bookshop">Bookshop</a>, <a href="{{ site.baseurl }}/shops-food/pantry">Pantry</a> and <a href="{{ site.baseurl }}/shops-food/colonsay-general-store">Shop</a>, sample the Oysters and <a href="{{ site.baseurl }}/shops-food/colonsay-honey">Honey</a>
+- Come to enjoy the birds, <a href="/node/64">flora</a> and <a href="{{ site.baseurl }}/things-do/tours-walks">incredible scenery</a>
+- Come "<a href="{{ site.baseurl }}/things-do/macphie-bagging">MacPhie-bagging</a>" (more-manageable than Munros)
 - Come to enjoy the sky at night, away from city lights
 
 ## Practicalities
 
 Hebridean Air Services: <a href="http://www.hebrideanair.co.uk">www.hebrideanair.co.uk</a>
 
-Reserve your <a href="{{ site.url }}{{ site.baseurl }}/accommodation">short-break accommodation</a>
+Reserve your <a href="{{ site.baseurl }}/accommodation">short-break accommodation</a>
 
-Perhaps <a href="{{ site.url }}{{ site.baseurl }}/things-do/archies-bike-hire">book bicycles</a> from Archie MacConnell (Tel. 01951 200355)
+Perhaps <a href="{{ site.baseurl }}/things-do/archies-bike-hire">book bicycles</a> from Archie MacConnell (Tel. 01951 200355)

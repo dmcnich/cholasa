@@ -14,4 +14,4 @@ Note: The Lovatt family recently (2016) discovered two fossils, evidently brough
 
 For further information on local material, please refer to the geological notes attached below.
 
-[Geology of Colonsay]({{ site.url }}{{ site.baseurl }}/downloads/geology%20of%20colonsay.PDF)
+[Geology of Colonsay]({{ site.baseurl }}/downloads/geology%20of%20colonsay.PDF)

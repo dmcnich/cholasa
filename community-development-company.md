@@ -58,4 +58,4 @@ This very website is owned and operated by the CCDC. In 2017 it was decided tha
 *Last updated August 2018*
 
 ## Croft Project
-The croft project has it's very own page! <a href="{{ site.url }}{{ site.baseurl }}/our-community/crofting-projects">Why not take a look</a>?
+The croft project has it's very own page! <a href="{{ site.baseurl }}/our-community/crofting-projects">Why not take a look</a>?

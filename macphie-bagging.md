@@ -36,4 +36,4 @@ Each MacPhie is listed below but a handy pdf with a map of each one is available
 - **Beinn nan Gudairean** 136m 388950
 - **Carn na Cainnle** 116m 381945
 
-[The Macphies]({{ site.url }}{{ site.baseurl }}/downloads/MacPhie.pdf)
+[The Macphies]({{ site.baseurl }}/downloads/MacPhie.pdf)

@@ -29,5 +29,5 @@ If you wish to know more about the bird and plant life of Colonsay and Oransay, 
 <div class="field field-name-field-fileattachments field-type-file field-label-above clearfix">
       <div class="field-label"><h3>File Attachments:&nbsp;</h3></div>
     <div class="field-items">
-          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.url }}{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/Flora.pdf" type="application/pdf; length=855210">Flora.pdf</a></span></div>
-          <div class="field-item odd"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.url }}{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.url }}{{ site.baseurl }}/downloads/Birds.pdf" type="application/pdf; length=326665">Birds.pdf</a></span>
+          <div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.baseurl }}/downloads/Flora.pdf" type="application/pdf; length=855210">Flora.pdf</a></span></div>
+          <div class="field-item odd"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="{{ site.baseurl }}/images/application-pdf.png" /> <a href="{{ site.baseurl }}/downloads/Birds.pdf" type="application/pdf; length=326665">Birds.pdf</a></span>

@@ -4,7 +4,7 @@ category: Community
 redirect-from: our-community/post-office.html
 ---
 
-Colonsay Post Office is situated in Scalasaig attached to Colonsay General Store and is in easy walking distance from the pier, [Pantry]({{ site.url }}{{ site.baseurl }}/shops-food/pantry"), [Brewery]({{ site.url }}{{ site.baseurl }}/shops-food/colonsay-brewery), [Bookshop]({{ site.url }}{{ site.baseurl }}/shops-food/bookshop), Christine's Den, The Old Waiting Room Gallery and the Hotel.
+Colonsay Post Office is situated in Scalasaig attached to Colonsay General Store and is in easy walking distance from the pier, [Pantry]({{ site.baseurl }}/shops-food/pantry"), [Brewery]({{ site.baseurl }}/shops-food/colonsay-brewery), [Bookshop]({{ site.baseurl }}/shops-food/bookshop), Christine's Den, The Old Waiting Room Gallery and the Hotel.
 
 The Office includes a delivery office and post is delivered to all parts of the island except Balnahard and Ardskenish. Regreattably the Post Bus service has been withdrawn.
 

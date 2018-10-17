@@ -31,6 +31,6 @@ var tt_corner = '10px';
 </script> 
 <script src="https://www.tidetimes.org.uk/scalasaig-tide-times.js" type="text/javascript"></script>
 
-[Caledonian MacBrayne Colonsay Summer Timetable 2018]({{ site.url }}{{ site.baseurl }}/downloads/Download_the_summer_2018_timetable_10_Oban_-_Colonsay_-_Port_Askaig_-_Kennacraig.pdf)
+[Caledonian MacBrayne Colonsay Summer Timetable 2018]({{ site.baseurl }}/downloads/Download_the_summer_2018_timetable_10_Oban_-_Colonsay_-_Port_Askaig_-_Kennacraig.pdf)
 
-[Caledonian MacBrayne Winter Timetable 2018/19]({{ site.url }}{{ site.baseurl }}/downloads/WTT_T10_v2_07052018.pdf)
+[Caledonian MacBrayne Winter Timetable 2018/19]({{ site.baseurl }}/downloads/WTT_T10_v2_07052018.pdf)

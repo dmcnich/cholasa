@@ -8,9 +8,9 @@ title: Accomodation
 {% assign items = type.items %}
 {% for place in items %}
 <hr />
-### [{{ place.title }}]({{ site.url }}{{ site.baseurl }}/places/{{ place.title }}) 
+### [{{ place.title }}]({{ site.baseurl }}/places/{{ place.title }}) 
 {: #{{ place.title | slugify | remove:"-" }}}
-![{{ place.title }}]({{ site.url }}{{ site.baseurl }}/images/accomodation/{{ place.title | slugify }}.jpg)
+![{{ place.title }}]({{ site.baseurl }}/images/accomodation/{{ place.title | slugify }}.jpg)
 
 **{{ place.accomodation }}**
 
