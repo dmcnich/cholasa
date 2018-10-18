@@ -1,3 +1,4 @@
+---
 title: Isle of Colonsay
 timezone: UTC
 collections:
@@ -20,21 +21,21 @@ defaults:
     layout: default
 - scope:
     path: ''
-    type: 'posts'
+    type: posts
   values:
-    title:
-    date:
-    time:
-    place:
+    title: 
+    date: 
+    time: 
+    place: 
 - scope:
     path: ''
-    type: 'places'
+    type: places
   values:
-    title:
-    type:
-    accomodation:
-    link:
-    coord:
+    title: 
+    type: 
+    accomodation: 
+    link: 
+    coord: 
 email: d@mcni.ch
 description: A beautiful island and a welcoming community on the west coast of Scotland
 baseurl: "/cholasa"
