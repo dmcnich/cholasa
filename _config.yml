@@ -19,14 +19,14 @@ defaults:
     path: ''
   values:
     layout: default
-- scope:
-    path: ''
-    type: posts
-  values:
-    title: 
-    date: 
-    time: 
-    place: 
+#- scope:
+#    path: ''
+#    type: posts
+#  values:
+#    title: 
+#    date: 
+#    time: 
+#    place: 
 - scope:
     path: ''
     type: places
