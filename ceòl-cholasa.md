@@ -4,7 +4,7 @@ category: Events & Festivals
 redirect-from: events-festivals/cèol-cholasa.html
 ---
 
-![Ceol cholasa logo](/images/unnamed.jpg)Ceòl Cholasa is usually held the third weekend of September each year, and for 2018 the dates will be 13th to 16th September.
+![Ceol cholasa logo](/uploads/unnamed.jpg)Ceòl Cholasa is usually held the third weekend of September each year, and for 2018 the dates will be 13th to 16th September.
 
 13th to 16th September 2018 will see Colonsay celebrating its 11th Music Festival. Over the past decade, thanks to the hard work of the Islanders and the  generosity of the artists Colonsay has consistently managed to attract Scotland’s finest musicians to the smallest (and we think best) festival in the land. It’s a tribute to Colonsay’s charm that busy musicians are willing to take a weekend out of their touring schedules to come and make music with us.
 

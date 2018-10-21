@@ -23,11 +23,18 @@ defaults:
     path: ''
     type: places
   values:
-    title: 
-    type: 
-    accomodation: 
-    link: 
-    coord: 
+    title: ''
+    type: ''
+    accomodation: ''
+    link: ''
+    coord: ''
+- scope:
+    path: ''
+    type: posts
+  values:
+    title: ''
+    time: ''
+    place: ''
 email: d@mcni.ch
 description: A beautiful island and a welcoming community on the west coast of Scotland
 baseurl: "/cholasa"

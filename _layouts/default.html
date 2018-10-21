@@ -7,17 +7,11 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="{{ site.baseurl }}/images/colonsay.png" />
+    <link rel="shortcut icon" href="{{ site.baseurl }}/uploads/colonsay.png" />
     <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
     
     <script src="//use.typekit.net/xzl7twq.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-   
-    {% if page.title == "Accomodation" %}
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-    <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js"></script>
-    {% endif %}
     
     <title>{% if page.title %}{{ page.title }} | {% endif %}Isle Of Colonsay</title>
 </head>
@@ -64,10 +58,6 @@
         {% if page.title %}
         <hr />
         {% endif %}
-        {% if page.title == "Accomodation" %}
-        <p>Colonsay offers a wide variety of options for accommodation. Browse the map, or find a full listing below.</p>
-        <div id="mapid" style="height:70vh;"></div>
-        {% endif %}
         {{ content | markdownify }}
     </section>
 
@@ -94,15 +84,15 @@
     <footer>
         <div>
             <div>
-                <p><a href="http://corncrake.org.uk"><img src="{{ site.baseurl }}/images/corncrake.png" /></a></p>
-                <p><a href="https://www.ruralnetwork.scot/funding/leader"><img src="{{ site.baseurl }}/images/leader.png" /></a> <a href="http://www.hie.co.uk"><img src="{{ site.baseurl }}/images/hie.png" /></a></p>
+                <p><a href="http://corncrake.org.uk"><img src="{{ site.baseurl }}/uploads/corncrake.png" /></a></p>
+                <p><a href="https://www.ruralnetwork.scot/funding/leader"><img src="{{ site.baseurl }}/uploads/leader.png" /></a> <a href="http://www.hie.co.uk"><img src="{{ site.baseurl }}/uploads/hie.png" /></a></p>
             </div> 
             <div>
                 <p>Find us on:</p>
                 <ul>
-                    <li><img src="{{ site.baseurl }}/images/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor</a></li>
-                    <li><img src="{{ site.baseurl }}/images/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook</a></li>
-                    <li><img src="{{ site.baseurl }}/images/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube</a></li>
+                    <li><img src="{{ site.baseurl }}/uploads/tripadvisor.png" /><a href="https://www.tripadvisor.co.uk/Tourism-g562664-Isle_of_Colonsay_The_Hebrides_Scotland-Vacations.html">TripAdvisor</a></li>
+                    <li><img src="{{ site.baseurl }}/uploads/facebook.png" /><a href="http://www.facebook.com/pages/Friends-of-Colonsay/155213141193434">Facebook</a></li>
+                    <li><img src="{{ site.baseurl }}/uploads/youtube.png" /><a href="https://www.youtube.com/results?search_query=colonsay">Youtube</a></li>
                 </ul>
             </div> 
             <div>
@@ -111,21 +101,5 @@
         </div>
         <p>&copy; 2018 Colonsay Community Development Company - <a href="{{ site.baseurl }}/island/about-us">Contact Us</a></p>
     </footer>
-
-    {% if page.title == "Accomodation" %}
-    <script>
-        var layer = new L.StamenTileLayer("watercolor");
-        var map = new L.Map("mapid", {
-            center: new L.LatLng(56.05, -6.21),
-            zoom: 11
-        });
-        map.addLayer(layer);
-        {%- for place in site.places -%}
-        var {{ place.title | slugify | remove: "4" | remove: "-" }} = L.marker([{{ place.coord }}]).addTo(map);
-        {{ place.title | slugify | remove: "4" | remove: "-" }}.bindPopup("<p>{{ place.title }} <br /><a href='#{{ place.title | slugify | remove: "-" }}'>Click for details</a></p>");
-        {% endfor %}
-    </script>
-    {% endif %}
-
 </body>
 </html>
