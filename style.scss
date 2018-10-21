@@ -6,7 +6,7 @@
 {% assign imageslides = imagenumber | plus:1 %}
 {% assign newsslides = newsnumber | plus:1 %}
 
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Lato');
 
 html {
   box-sizing: border-box;
@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-    font-family: 'Trajan Pro Sans', 'Alegreya Sans SC', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight:100;
     font-size: 10vw;
     padding: 0;
